@@ -31,6 +31,8 @@ class ValueNetwork(nn.Module):
         return x
 
 # Q网络结构是两个三层的全连接网络，输入是状态和动作，输出是Q值
+# 之所以有两个Q网络，是因为SAC算法使用了两个Q网络来减少过估计的风险
+# 每次forward的时候返回两个Q值
 class QNetwork(nn.Module):
     def __init__(self, num_inputs, num_actions, hidden_dim):
         super(QNetwork, self).__init__()
@@ -137,6 +139,9 @@ class GaussianPolicy(nn.Module):
         log_prob = log_prob.sum(1, keepdim=True)
         mean = torch.tanh(mean) * self.action_scale + self.action_bias
         return action, log_prob, mean
+        # action: 采样的动作
+        # log_prob: 采样的对数概率
+        # mean: 是网络输出的均值，表示在给定状态下策略生成动作的期望值
 
     def to(self, device):
         self.action_scale = self.action_scale.to(device)

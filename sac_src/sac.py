@@ -6,6 +6,12 @@ from sac_src.utils import soft_update, hard_update
 from sac_src.model import GaussianPolicy, QNetwork, DeterministicPolicy
 
 # 软演员-评论家算法
+# AC（Actor-Critic）通常使用确定性策略，即 Actor 网络直接输出一个确定性的动作。
+# 这在连续动作空间中意味着每个状态都有一个固定的动作输出。
+# 虽然也有随机版本的 Actor-Critic 算法（例如 A3C），但经典的 AC 算法多为确定性策略。
+# SAC（Soft Actor-Critic）：
+# 使用随机策略，即 Actor 网络输出一个动作分布（通常是高斯分布），并从中采样动作。
+# SAC 强调最大化策略的熵，这意味着它鼓励智能体保持一定的随机性和探索性，以避免陷入局部最优解。
 class SAC(object):
     def __init__(self, num_inputs, action_space, args):
 
@@ -19,12 +25,14 @@ class SAC(object):
         self.action_space = action_space
         self.learning_rate = args.lr
 
+        # SAC中的actor是一个策略网络，用于生成动作。有两种策略网络，一种是确定性策略网络，另一种是高斯策略网络。
         self.policy_type = args.policy
         self.target_update_interval = args.target_update_interval
         self.automatic_entropy_tuning = args.automatic_entropy_tuning
 
         self.device = torch.device("cuda" if args.cuda else "cpu") 
 
+        # SAC中的critic是Q网络，用于评估状态-动作对的价值。
         self.critic = QNetwork(num_inputs, action_space.shape[0], args.hidden_size).to(device=self.device)
         self.critic_optim = Adam(self.critic.parameters(), lr=args.lr)
 
@@ -54,11 +62,19 @@ class SAC(object):
         self.critic_optim = Adam(self.critic.parameters(), lr=self.learning_rate)
         self.policy_optim = Adam(self.policy.parameters(), lr=self.learning_rate)
 
-    # 根据给定状态从策略网络中选择一个动作
+    # 根据给定状态从策略网络中选择一个动作，动作应该就是mu
     def select_action(self, state, eval=False):
         state = torch.FloatTensor(state).to(self.device).unsqueeze(0)
+
+        # 在训练过程中，SAC 鼓励智能体进行探索，以便更好地学习环境的动态。
+        # 因此，策略网络会基于当前状态生成一个随机的动作
+        # 该动作是通过策略网络输出的均值和标准差生成的正态分布中采样得到的。
         if eval == False:
+            # 策略网络返回的依次是动作、对数概率和均值
             action, _, _ = self.policy.sample(state)
+
+        # 在评估阶段，通常不再需要探索，而是希望智能体执行确定性的动作，即选择当前策略网络认为最优的动作。
+        # 这种确定性动作是通过策略网络输出的均值直接得到的，不带有随机性。
         else:
             _, _, action = self.policy.sample(state)
         return action.detach().cpu().numpy()[0]
@@ -68,15 +84,17 @@ class SAC(object):
         # 从经验池中采样一个批次
         state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
 
-        # 将数据转换为 PyTorch 张量
+        # 将经验池中存储的数据转换为 PyTorch 张量
         state_batch = torch.FloatTensor(state_batch).to(self.device)
         next_state_batch = torch.FloatTensor(next_state_batch).to(self.device)
         action_batch = torch.FloatTensor(action_batch).to(self.device)
         reward_batch = torch.FloatTensor(reward_batch).to(self.device).unsqueeze(1)
         mask_batch = torch.FloatTensor(mask_batch).to(self.device).unsqueeze(1)
 
-        # 
+        # 计算目标 Q 值
         with torch.no_grad():
+            # 从策略网络中为下一个状态 next_state_batch 采样动作 next_state_action
+            # 并获取该动作的 log 概率 next_state_log_pi。
             next_state_action, next_state_log_pi, _ = self.policy.sample(next_state_batch)
             qf1_next_target, qf2_next_target = self.critic_target(next_state_batch, next_state_action)
             min_qf_next_target = torch.min(qf1_next_target, qf2_next_target) - self.alpha * next_state_log_pi

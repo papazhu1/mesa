@@ -218,9 +218,12 @@ class Mesa(EnsembleTrainingEnv):
         self.init()
         self.actions_record = []
         for i in range(n_estimators-1):
+            # 对于集成学习，每个state就是当前集成器的性能，作者将它们归结成直方图
             state = self.get_state()
             action = self.meta_sampler.select_action(state)
             self.actions_record.append(action[0])
+
+            # 在step中完成了集成器的训练和性能评估
             _, _, _, info = self.step(action[0], verbose)
             if verbose: 
                 print ('{:<12s} | action: {} {}'.format('Mesa', action, info))
