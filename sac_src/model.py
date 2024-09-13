@@ -30,7 +30,7 @@ class ValueNetwork(nn.Module):
         x = self.linear3(x)
         return x
 
-
+# Q网络结构是两个三层的全连接网络，输入是状态和动作，输出是Q值
 class QNetwork(nn.Module):
     def __init__(self, num_inputs, num_actions, hidden_dim):
         super(QNetwork, self).__init__()
@@ -61,21 +61,35 @@ class QNetwork(nn.Module):
         return x1, x2
 
 
+# SAC支持两个网络，一个是确定性策略网络，一个是高斯策略网络
+# 高斯策略通过神经网络生成动作的均值和标准差，接着从这个分布中采样动作，并对其进行缩放和约束。
 class GaussianPolicy(nn.Module):
     def __init__(self, num_inputs, num_actions, hidden_dim, action_space=None):
         super(GaussianPolicy, self).__init__()
-        
+
+        # linear1: 这是输入层，用于将状态映射到隐藏维度。
+
         self.linear1 = nn.Linear(num_inputs, hidden_dim)
         # self.linear2 = nn.Linear(hidden_dim, hidden_dim)
         # self.linear3 = nn.Linear(hidden_dim, hidden_dim)
         # self.linear4 = nn.Linear(hidden_dim, hidden_dim)
 
+        # mean_linear: 用于输出动作均值的线性层。
+        # log_std_linear: 用于输出动作的标准差（以log形式）的线性层。
+
+        # 标准差必须是正数，但神经网络可以输出任何实数值。
+        # 如果直接输出标准差，可能会出现负值，违反标准差的定义。
+        # 通过输出对数标准差 log_std，然后通过 exp(log_std) 将其转换为标准差
+        # 确保标准差始终为正数（因为指数函数的输出范围是正数）。
+        # 这是处理标准差约束的一种简单、有效的方法。
         self.mean_linear = nn.Linear(hidden_dim, num_actions)
         self.log_std_linear = nn.Linear(hidden_dim, num_actions)
 
         self.apply(weights_init_)
 
         # action rescaling
+        # 如果 action_space 存在，action_scale 和 action_bias 会根据 action_space 的上下限进行计算
+        # 用来后续将网络输出的动作值缩放到合适范围。否则，将默认缩放值设为 1，偏移值设为 0。
         if action_space is None:
             self.action_scale = torch.tensor(1.)
             self.action_bias = torch.tensor(0.)
@@ -85,6 +99,7 @@ class GaussianPolicy(nn.Module):
             self.action_bias = torch.FloatTensor(
                 (action_space.high + action_space.low) / 2.)
 
+    # 调用 forward 方法获取动作均值和对数标准差。
     def forward(self, state):
         x = F.relu(self.linear1(state))
         # x = F.relu(self.linear2(x))
@@ -92,14 +107,28 @@ class GaussianPolicy(nn.Module):
         # x = F.relu(self.linear4(x))
         mean = self.mean_linear(x)
         log_std = self.log_std_linear(x)
+        # clamp将对数标准差限制在一个范围内，防止过大或过小
         log_std = torch.clamp(log_std, min=LOG_SIG_MIN, max=LOG_SIG_MAX)
         return mean, log_std
 
+    # 采样函数，用于从策略网络中采样动作
+    # 调用 forward 方法获取动作均值和对数标准差。
+    # 通过对数标准差的指数函数获取标准差 std。
+    # 使用均值 mean 和标准差 std 定义一个正态分布 normal
+    # 并从中进行再参数化采样 rsample（即从标准正态分布采样并乘以标准差，再加上均值，这就是重参数化技巧）。
+    # 通过 tanh 函数约束采样结果 x_t，确保动作的输出在 (-1, 1) 的范围内。
+    # 通过 action_scale 和 action_bias 对动作进行缩放和偏移，生成最终动作。
+    # 计算采样的对数概率 log_prob，并进行一些修正以确保动作在边界范围内。
     def sample(self, state):
         mean, log_std = self.forward(state)
         std = log_std.exp()
+        # 使用均值 mean 和标准差 std 定义一个正态分布 normal
         normal = Normal(mean, std)
+
+        # 用这个正态分布来采样，是和网络无关的采样过程
         x_t = normal.rsample()  # for reparameterization trick (mean + std * N(0,1))
+
+        # 生成一个（-1，1）范围内的动作
         y_t = torch.tanh(x_t)
         action = y_t * self.action_scale + self.action_bias
         log_prob = normal.log_prob(x_t)

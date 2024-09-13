@@ -188,7 +188,8 @@ class EnsembleTrainingEnv(Ensemble):
         if self.flag_use_test_set:
             self.y_pred_test_buffer  = np.zeros_like(self.y_test)
         self._warm_up()
-    
+
+    # 获取当前的环境状态，基于训练和验证数据的错误分布直方图来表示状态。
     def get_state(self):
         """Fetch the current state of the environment."""
         hist_train = histogram_error_distribution(
@@ -203,7 +204,9 @@ class EnsembleTrainingEnv(Ensemble):
         hist_valid = hist_valid / hist_valid.sum() * self.args.num_bins
         state = np.concatenate([hist_train, hist_valid])
         return state
-    
+
+    # action是一个浮点数，表示采样比例mu
+    # step是用来采样的, 然后训练一个基分类器
     def step(self, action, verbose=False):
         """Perform an environment step.
 
@@ -244,6 +247,7 @@ class EnsembleTrainingEnv(Ensemble):
             mu = action, 
             sigma = self.args.sigma, 
             random_state = self.args.random_state,)
+
         # build training subset (X_train_iter, y_train_iter)
         X_train_iter = pd.concat([X_maj_subset, self.X_train[self.mask_min_train]]).values
         y_train_iter = np.concatenate([np.zeros(X_maj_subset.shape[0]), np.ones(self.n_min_samples)])
@@ -253,6 +257,7 @@ class EnsembleTrainingEnv(Ensemble):
         # build a new base classifier from (X_train_iter, y_train_iter)
         self.fit_step(X_train_iter, y_train_iter)
         self.update_all_pred_buffer()
+
 
         score_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer)
 
@@ -281,6 +286,7 @@ class EnsembleTrainingEnv(Ensemble):
             self.y_pred_test_buffer  = self._update_pred_buffer(n_clf, self.X_test,  self.y_pred_test_buffer)
         return
 
+    # 用最新训练的基分类器预测，然后更新平均预测值
     def _update_pred_buffer(self, n_clf, X, y_pred_buffer):
         """Update buffered predict probabilities.
 
@@ -302,7 +308,8 @@ class EnsembleTrainingEnv(Ensemble):
         y_pred_last_clf = self.estimators_[-1].predict_proba(X)[:, 1]
         y_pred_buffer_updated = (y_pred_buffer * (n_clf-1) + y_pred_last_clf) / n_clf
         return y_pred_buffer_updated
-    
+
+    # 这个函数只在第一次的时候用，所以是随机采样
     def _warm_up(self):
         """Train the first base classifier with random under-sampling."""
         X_maj = self.X_train[self.mask_maj_train]

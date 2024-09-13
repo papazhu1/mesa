@@ -145,6 +145,7 @@ def gaussian_prob(x, mu, sigma):
     """
     return (1 / (sigma * np.sqrt(2*np.pi))) * np.exp(-0.5*np.power((x-mu)/sigma, 2))
 
+# 根据高斯函数的值来设定样本的权重
 def meta_sampling(y_pred, y_true, X, n_under_samples, mu, sigma, random_state=None):
     """The meta-sampling process in MESA.
 
@@ -182,6 +183,7 @@ def meta_sampling(y_pred, y_true, X, n_under_samples, mu, sigma, random_state=No
     X_subset = pd.DataFrame(X).sample(n_under_samples, weights=sample_weights, random_state=random_state)
     return X_subset
 
+# 就是相当于分层采样，保证训练集和测试集的类别分布一致
 def imbalance_train_test_split(X, y, test_size, random_state=None):
     '''Train/Test split that guarantee same class distribution between split datasets.'''
     classes = np.unique(y)
@@ -203,26 +205,64 @@ def imbalance_train_test_split(X, y, test_size, random_state=None):
 
 def state_scale(state, scale):
     '''Scale up the meta-states.'''
-    return state / state.sum() * 2 * scale
+    return 2 * scale * state / state.sum()
 
+# 这个函数对经验池进行初始化，用随机数据填满，所以所有的计算和实际的数据集无关
 def memory_init_fulfill(args, memory):
     '''Initialize the memory.'''
     num_bins = args.num_bins
     memory_size = args.replay_size
     error_in_bins = np.linspace(0, 1, num_bins)
+
+    print("num_bins:", num_bins)
+    print("error_in_bins:", error_in_bins)
+
     mu = 0.3
+
+    # 这里的unfitted, midfitted, fitted对应的是中轴线在 1， 0.5， 0 处的高斯分布
+    # 目前不知道有什么作用
+    # 但理解了这里的对应关系，用高斯函数来模拟样本误差的分布
+    # 如果高斯函数中轴线在1处，那么就是underfitting，如果在0.5处，就是midfitted，如果在0处，就是fitted， 很好理解
     unfitted, midfitted, fitted = \
         gaussian_prob(error_in_bins, 1, mu), \
         gaussian_prob(error_in_bins, 0.5, mu), \
         gaussian_prob(error_in_bins, 0, mu)
+
+    print("unfitted", unfitted)
+    print("midfitted", midfitted)
+    print("fitted", fitted)
+
+    print("np.concatenate([unfitted, unfitted])\n", np.concatenate([unfitted, unfitted]))
+    print("np.concatenate([midfitted, midfitted])\n", np.concatenate([midfitted, midfitted]))
+    print("np.concatenate([fitted, midfitted])\n", np.concatenate([fitted, midfitted]))
+
     underfitting_state = state_scale(np.concatenate([unfitted, unfitted]), num_bins)
     learning_state = state_scale(np.concatenate([midfitted, midfitted]), num_bins)
     overfitting_state = state_scale(np.concatenate([fitted, midfitted]), num_bins)
+
+    print("underfitting_state", underfitting_state)
+    print("learning_state", learning_state)
+    print("overfitting_state", overfitting_state)
+
+
     noise_scale = 0.5
+
+    # 将经验池的内容分成三份，分别对应underfitting, learning, overfitting
     num_per_transitions = int(memory_size/3)
     for i in range(num_per_transitions):
+
+        print("i: ", i)
+        print("num_per_transitions: ", num_per_transitions)
+        print("underfitting_state: ", underfitting_state)
+        print("np.random.rand(num_bins*2): ", np.random.rand(num_bins*2))
+        print("np.random.rand(num_bins*2) * noise_scale: ", np.random.rand(num_bins*2) * noise_scale)
         state = underfitting_state + np.random.rand(num_bins*2) * noise_scale
+
+        print("state:", state)
         next_state = underfitting_state + np.random.rand(num_bins*2) * noise_scale
+
+        # 每个经验由state, action, reward, next_state, done 组成
+        # args.reward_coefficient * 0.05 = 5
         memory.push(state, [0.9], args.reward_coefficient * 0.05, next_state, 0)
     for i in range(num_per_transitions):
         state = learning_state + np.random.rand(num_bins*2) * noise_scale
@@ -233,7 +273,8 @@ def memory_init_fulfill(args, memory):
         next_state = overfitting_state + np.random.rand(num_bins*2) * noise_scale
         memory.push(state, [0.1], args.reward_coefficient * 0.05, next_state, 0)
     return memory
-    
+
+# 将y转换成one-hot编码
 def transform(y):
     if y.ndim == 1:
         y = y[:, np.newaxis]

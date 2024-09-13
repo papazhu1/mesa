@@ -5,10 +5,14 @@ from torch.optim import Adam, lr_scheduler
 from sac_src.utils import soft_update, hard_update
 from sac_src.model import GaussianPolicy, QNetwork, DeterministicPolicy
 
-
+# 软演员-评论家算法
 class SAC(object):
     def __init__(self, num_inputs, action_space, args):
 
+        # gamma：折扣因子，用于调整未来奖励的折扣。
+        # tau：软更新的步长，控制目标网络的更新速度。
+        # alpha：熵系数，控制探索的强度。
+        # action_space：动作空间，用于确定策略网络输出的维度。
         self.gamma = args.gamma
         self.tau = args.tau
         self.alpha = args.alpha
@@ -60,6 +64,7 @@ class SAC(object):
 
     def update_parameters(self, memory, batch_size, updates):
         # Sample a batch from memory
+        # 从经验池中采样一个批次
         state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
 
         state_batch = torch.FloatTensor(state_batch).to(self.device)

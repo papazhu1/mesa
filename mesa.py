@@ -100,10 +100,15 @@ class Mesa(EnsembleTrainingEnv):
         self : object (Mesa)
         """
         # initialize replay memory and environment
+
+        print("meta_fit begin---------------------------------")
         self.env.load_data(X_train, y_train, X_valid, y_valid, X_test, y_test, train_ratio=self.args.train_ratio)
         self.memory = memory_init_fulfill(self.args, ReplayMemory(self.args.replay_size))
         
         self.scores = []
+
+        # total_steps：总的训练步数，由 update_steps 和 start_steps 决定。
+        # start_steps 是模型开始元学习之前的随机探索阶段，update_steps 是元学习阶段。
         total_steps = self.args.update_steps + self.args.start_steps
         num_steps, num_updates, num_episodes = 0, 0, 0
 
@@ -118,6 +123,7 @@ class Mesa(EnsembleTrainingEnv):
                 num_steps += 1
 
                 # take an action
+                # 在 start_steps 之前，采取随机动作；之后则通过元采样器（meta_sampler）选择最优动作。
                 if num_steps >= self.args.start_steps:
                     action, by = self.meta_sampler.select_action(state), 'mesa'
                 else:
@@ -146,7 +152,8 @@ class Mesa(EnsembleTrainingEnv):
                     self.verbose_mean_scores(num_episodes, num_updates, by)
 
         return self
-    
+
+    # 对训练集、验证集和测试集的预测结果进行评估
     def record_scores(self):
         """Record the training/validation/test performance scores."""
         train_score = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer)
