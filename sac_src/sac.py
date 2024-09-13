@@ -54,6 +54,7 @@ class SAC(object):
         self.critic_optim = Adam(self.critic.parameters(), lr=self.learning_rate)
         self.policy_optim = Adam(self.policy.parameters(), lr=self.learning_rate)
 
+    # 根据给定状态从策略网络中选择一个动作
     def select_action(self, state, eval=False):
         state = torch.FloatTensor(state).to(self.device).unsqueeze(0)
         if eval == False:
@@ -67,12 +68,14 @@ class SAC(object):
         # 从经验池中采样一个批次
         state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
 
+        # 将数据转换为 PyTorch 张量
         state_batch = torch.FloatTensor(state_batch).to(self.device)
         next_state_batch = torch.FloatTensor(next_state_batch).to(self.device)
         action_batch = torch.FloatTensor(action_batch).to(self.device)
         reward_batch = torch.FloatTensor(reward_batch).to(self.device).unsqueeze(1)
         mask_batch = torch.FloatTensor(mask_batch).to(self.device).unsqueeze(1)
 
+        # 
         with torch.no_grad():
             next_state_action, next_state_log_pi, _ = self.policy.sample(next_state_batch)
             qf1_next_target, qf2_next_target = self.critic_target(next_state_batch, next_state_action)
