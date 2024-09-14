@@ -14,6 +14,8 @@ from sac_src.sac import SAC
 from sac_src.replay_memory import ReplayMemory
 from environment import EnsembleTrainingEnv
 from utils import *
+from imblearn.metrics import sensitivity_score, specificity_score, geometric_mean_score
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, average_precision_score, precision_score, recall_score
 
 class Mesa(EnsembleTrainingEnv):
     """The ensemble imbalanced learning framework MESA.
@@ -159,6 +161,31 @@ class Mesa(EnsembleTrainingEnv):
         train_score = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer)
         valid_score = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer)
         test_score  = self.env.rater.score(self.env.y_test,  self.env.y_pred_test_buffer) if self.env.flag_use_test_set else 'NULL'
+
+        acc_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="acc")
+        acc_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="acc")
+        acc_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="acc") if self.env.flag_use_test_set else 'NULL'
+
+        print('acc_train: {:.3f} | acc_valid: {:.3f} | acc_test: {:.3f}'.format(acc_train, acc_valid, acc_test))
+
+        sen_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="sen")
+        sen_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="sen")
+        sen_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="sen") if self.env.flag_use_test_set else 'NULL'
+
+        print('sen_train: {:.3f} | sen_valid: {:.3f} | sen_test: {:.3f}'.format(sen_train, sen_valid, sen_test))
+
+        spe_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="spe")
+        spe_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="spe")
+        spe_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="spe") if self.env.flag_use_test_set else 'NULL'
+
+        print('spe_train: {:.3f} | spe_valid: {:.3f} | spe_test: {:.3f}'.format(spe_train, spe_valid, spe_test))
+
+        gmean_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="gmean")
+        gmean_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="gmean")
+        gmean_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="gmean") if self.env.flag_use_test_set else 'NULL'
+
+        print('gmean_train: {:.3f} | gmean_valid: {:.3f} | gmean_test: {:.3f}'.format(gmean_train, gmean_valid, gmean_test))
+
         self.scores.append([train_score, valid_score, test_score] if self.env.flag_use_test_set else [train_score, valid_score])
         return
 

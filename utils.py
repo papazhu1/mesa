@@ -13,7 +13,8 @@ from sklearn.metrics import (
     matthews_corrcoef, 
     )
 from sklearn.model_selection import train_test_split
-
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
+from imblearn.metrics import sensitivity_score, specificity_score, geometric_mean_score
 class Rater():
     """Rater for evaluate classifiers performance on class imabalanced data.
 
@@ -47,7 +48,7 @@ class Rater():
         self.metric_ = metric
         self.threshold_ = threshold
         
-    def score(self, y_true, y_pred):
+    def score(self, y_true, y_pred, method='aucprc'):
         """Score function.
 
         Parameters
@@ -74,6 +75,18 @@ class Rater():
             y_pred_b[y_pred_b < self.threshold_] = 0
             y_pred_b[y_pred_b >= self.threshold_] = 1
             return f1_score(y_true, y_pred_b)
+
+        if method == 'f1_macro':
+            return f1_score(y_true, y_pred, average='macro')
+        if method == "sen":
+            return sensitivity_score(y_true, y_pred)
+        if method == "spe":
+            return specificity_score(y_true, y_pred)
+        if method == "acc":
+            return accuracy_score(y_true, y_pred)
+        if method == "gmean":
+            return geometric_mean_score(y_true, y_pred)
+
 
 def load_dataset(dataset_name):
     """Util function that load training/validation/test data from /data folder.
