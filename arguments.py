@@ -52,7 +52,7 @@ parser.add_argument('--num_bins', type=int, default=5, metavar='N',
                     help='number of bins (default: 5). state-size = 2 * num_bins.')
 parser.add_argument('--sigma', type=float, default=0.2, metavar='N', 
                     help='sigma of the Gaussian function used in meta-sampling (default: 0.2)')
-parser.add_argument('--max_estimators', type=int, default=10, metavar='N',
+parser.add_argument('--max_estimators', type=int, default=20, metavar='N',
                     help='maximum number of base estimators in each meta-training episode (default: 10)')
 parser.add_argument('--meta_verbose', type=int, default=10, metavar='N',
                     help='number of episodes between verbose outputs. \

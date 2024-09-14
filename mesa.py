@@ -115,7 +115,10 @@ class Mesa(EnsembleTrainingEnv):
         num_steps, num_updates, num_episodes = 0, 0, 0
 
         # start meta-training
+
+        print("total_steps:", total_steps)
         while num_steps < total_steps:
+            print("num_steps:", num_steps)
             self.env.init()
             state = self.env.get_state()
             done = False

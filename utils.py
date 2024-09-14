@@ -63,6 +63,26 @@ class Rater():
         ----------
         score: float
         """
+
+        # print("y_pred")
+        # print(y_pred)
+
+        if method == 'f1_macro':
+            y_pred = [1 if i >= self.threshold_ else 0 for i in y_pred]
+            return f1_score(y_true, y_pred, average='macro')
+        if method == "sen":
+            y_pred = [1 if i >= self.threshold_ else 0 for i in y_pred]
+            return sensitivity_score(y_true, y_pred)
+        if method == "spe":
+            y_pred = [1 if i >= self.threshold_ else 0 for i in y_pred]
+            return specificity_score(y_true, y_pred)
+        if method == "acc":
+            y_pred = [1 if i >= self.threshold_ else 0 for i in y_pred]
+            return accuracy_score(y_true, y_pred)
+        if method == "gmean":
+            y_pred = [1 if i >= self.threshold_ else 0 for i in y_pred]
+            return geometric_mean_score(y_true, y_pred)
+
         if self.metric_ == 'aucprc':
             return average_precision_score(y_true , y_pred)
         elif self.metric_ == 'mcc':
@@ -76,16 +96,7 @@ class Rater():
             y_pred_b[y_pred_b >= self.threshold_] = 1
             return f1_score(y_true, y_pred_b)
 
-        if method == 'f1_macro':
-            return f1_score(y_true, y_pred, average='macro')
-        if method == "sen":
-            return sensitivity_score(y_true, y_pred)
-        if method == "spe":
-            return specificity_score(y_true, y_pred)
-        if method == "acc":
-            return accuracy_score(y_true, y_pred)
-        if method == "gmean":
-            return geometric_mean_score(y_true, y_pred)
+
 
 
 def load_dataset(dataset_name):
@@ -241,21 +252,21 @@ def memory_init_fulfill(args, memory):
         gaussian_prob(error_in_bins, 0.5, mu), \
         gaussian_prob(error_in_bins, 0, mu)
 
-    print("unfitted", unfitted)
-    print("midfitted", midfitted)
-    print("fitted", fitted)
-
-    print("np.concatenate([unfitted, unfitted])\n", np.concatenate([unfitted, unfitted]))
-    print("np.concatenate([midfitted, midfitted])\n", np.concatenate([midfitted, midfitted]))
-    print("np.concatenate([fitted, midfitted])\n", np.concatenate([fitted, midfitted]))
+    # print("unfitted", unfitted)
+    # print("midfitted", midfitted)
+    # print("fitted", fitted)
+    #
+    # print("np.concatenate([unfitted, unfitted])\n", np.concatenate([unfitted, unfitted]))
+    # print("np.concatenate([midfitted, midfitted])\n", np.concatenate([midfitted, midfitted]))
+    # print("np.concatenate([fitted, midfitted])\n", np.concatenate([fitted, midfitted]))
 
     underfitting_state = state_scale(np.concatenate([unfitted, unfitted]), num_bins)
     learning_state = state_scale(np.concatenate([midfitted, midfitted]), num_bins)
     overfitting_state = state_scale(np.concatenate([fitted, midfitted]), num_bins)
 
-    print("underfitting_state", underfitting_state)
-    print("learning_state", learning_state)
-    print("overfitting_state", overfitting_state)
+    # print("underfitting_state", underfitting_state)
+    # print("learning_state", learning_state)
+    # print("overfitting_state", overfitting_state)
 
 
     noise_scale = 0.5
@@ -264,14 +275,14 @@ def memory_init_fulfill(args, memory):
     num_per_transitions = int(memory_size/3)
     for i in range(num_per_transitions):
 
-        print("i: ", i)
-        print("num_per_transitions: ", num_per_transitions)
-        print("underfitting_state: ", underfitting_state)
-        print("np.random.rand(num_bins*2): ", np.random.rand(num_bins*2))
-        print("np.random.rand(num_bins*2) * noise_scale: ", np.random.rand(num_bins*2) * noise_scale)
+        # print("i: ", i)
+        # print("num_per_transitions: ", num_per_transitions)
+        # print("underfitting_state: ", underfitting_state)
+        # print("np.random.rand(num_bins*2): ", np.random.rand(num_bins*2))
+        # print("np.random.rand(num_bins*2) * noise_scale: ", np.random.rand(num_bins*2) * noise_scale)
         state = underfitting_state + np.random.rand(num_bins*2) * noise_scale
 
-        print("state:", state)
+        # print("state:", state)
         next_state = underfitting_state + np.random.rand(num_bins*2) * noise_scale
 
         # 每个经验由state, action, reward, next_state, done 组成
