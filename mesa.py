@@ -6,16 +6,12 @@ mailto: zhining.liu@outlook.com / v-zhinli@microsoft.com
 """
 
 import os
-import torch
-import pandas as pd
-import numpy as np
 from gym import spaces
 from sac_src.sac import SAC
 from sac_src.replay_memory import ReplayMemory
-from environment import EnsembleTrainingEnv
+from gcForest_our_lab.myEnvironment import EnsembleTrainingEnv
 from utils import *
-from imblearn.metrics import sensitivity_score, specificity_score, geometric_mean_score
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, average_precision_score, precision_score, recall_score
+
 
 class Mesa(EnsembleTrainingEnv):
     """The ensemble imbalanced learning framework MESA.

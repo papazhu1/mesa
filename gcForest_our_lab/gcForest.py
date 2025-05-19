@@ -3,9 +3,12 @@ from sklearn import ensemble
 from layer import Layer
 from logger import get_logger
 from k_fold_wrapper import KFoldWrapper
-
+from arguments import parser
 import pickle
-
+from gym import spaces
+from sac_src.sac import SAC
+from sac_src.replay_memory import ReplayMemory
+from myEnvironment import EnsembleTrainingEnv
 LOGGER = get_logger("gcForest")
 
 
@@ -24,6 +27,12 @@ class gcForest(object):
         self.layers = []
         self.cascade_pred_proba = []
         self.cascade_pred_proba_sum = []
+        self.args = parser.parse_args()
+        state_size = int(self.args.num_bins * 2)
+        action_space = spaces.Box(low=0.0, high=1.0, shape=[1], dtype=np.float32)
+        self.meta_sampler = SAC(state_size, action_space, self.args)
+        self.env = EnsembleTrainingEnv(self.args)
+        self.memory = ReplayMemory(self.args.replay_size)
 
     def fit(self, x_train, y_train, x_valid, y_valid):
 
