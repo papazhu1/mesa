@@ -160,13 +160,18 @@ class DeterministicPolicy(nn.Module):
 
         self.apply(weights_init_)
 
+        print("action_space.low: ", action_space.low)
+        print("action_space.high: ", action_space.high)
+
         # action rescaling
         if action_space is None:
             self.action_scale = 1.
             self.action_bias = 0.
         else:
+            # action_scale = 0.5
             self.action_scale = torch.FloatTensor(
                 (action_space.high - action_space.low) / 2.)
+            # action_bias = 0.5
             self.action_bias = torch.FloatTensor(
                 (action_space.high + action_space.low) / 2.)
 
@@ -177,10 +182,16 @@ class DeterministicPolicy(nn.Module):
         return mean
 
     def sample(self, state):
+        # mean = self.forward(state)
+        # noise = self.noise.normal_(0., std=0.1)
+        # noise = noise.clamp(-0.1, 0.1)
+        # action = mean + noise
+
         mean = self.forward(state)
         noise = self.noise.normal_(0., std=0.1)
         noise = noise.clamp(-0.25, 0.25)
-        action = mean + noise
+        action = torch.tanh(mean + noise)  # 通过 tanh 限制在 [-1, 1]
+        action = action * self.action_scale + self.action_bias
         return action, torch.tensor(0.), mean
 
     def to(self, device):

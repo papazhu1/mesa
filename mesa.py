@@ -117,6 +117,9 @@ class Mesa(EnsembleTrainingEnv):
         # start meta-training
 
         print("total_steps:", total_steps)
+        print("start_steps:", self.args.start_steps)
+        print("update_steps:", self.args.update_steps)
+
         while num_steps < total_steps:
             print("num_steps:", num_steps)
             self.env.init()
@@ -135,6 +138,8 @@ class Mesa(EnsembleTrainingEnv):
                     action, by = self.meta_sampler.action_space.sample(), 'rand'
 
                 # store transition
+                # print("action:")
+                # print(action)
                 next_state, reward, done, info = self.env.step(action[0])
                 reward = reward * self.args.reward_coefficient
                 self.memory.push(state, action, reward, next_state, float(done))
@@ -188,6 +193,12 @@ class Mesa(EnsembleTrainingEnv):
         gmean_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="gmean") if self.env.flag_use_test_set else 'NULL'
 
         print('gmean_train: {:.3f} | gmean_valid: {:.3f} | gmean_test: {:.3f}'.format(gmean_train, gmean_valid, gmean_test))
+
+        f1macro_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="f1macro")
+        f1macro_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="f1macro")
+        f1macro_test  = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer, method="f1macro") if self.env.flag_use_test_set else 'NULL'
+
+        print('f1macro_train: {:.3f} | f1macro_valid: {:.3f} | f1macro_test: {:.3f}'.format(f1macro_train, f1macro_valid, f1macro_test))
 
         self.scores.append([train_score, valid_score, test_score] if self.env.flag_use_test_set else [train_score, valid_score])
         return

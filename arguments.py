@@ -43,9 +43,9 @@ parser.add_argument('--cuda', action="store_true", default=False,
                     help='run on CUDA (default: False)')
 
 # MESA arguments
-parser.add_argument('--dataset', type=str, default='Mammo', metavar='N',
-                    help='the dataset used for meta-training (default: Mammo)')
-parser.add_argument('--metric', type=str, default='aucprc', metavar='N',
+# parser.add_argument('--dataset', type=str, default='Mammo', metavar='N',
+#                     help='the dataset used for meta-training (default: Mammo)')
+parser.add_argument('--metric', type=str, default='aupr', metavar='N',
                     help='the metric used for evaluate (default: aucprc)')
 parser.add_argument('--reward_coefficient', type=float, default=100, metavar='N')
 parser.add_argument('--num_bins', type=int, default=5, metavar='N', 
