@@ -1,0 +1,40 @@
+Dataset: x1data.npz
+  Fold 1: F1-macro=0.4049, AUC=0.5761, AUPR=0.1773, Gmean=0.5212
+  Fold 2: F1-macro=0.3850, AUC=0.5190, AUPR=0.1479, Gmean=0.4551
+  Fold 3: F1-macro=0.3571, AUC=0.5452, AUPR=0.1269, Gmean=0.4309
+  Fold 4: F1-macro=0.3571, AUC=0.5476, AUPR=0.1237, Gmean=0.4309
+  Fold 5: F1-macro=0.3476, AUC=0.6095, AUPR=0.2170, Gmean=0.4226
+  Mean: F1-macro=0.3703, AUC=0.5595, AUPR=0.1586, Gmean=0.4522
+==================================================
+Dataset: x2data.npz
+  Fold 1: F1-macro=0.3907, AUC=0.5155, AUPR=0.1167, Gmean=0.4803
+  Fold 2: F1-macro=0.4075, AUC=0.5205, AUPR=0.1055, Gmean=0.4983
+  Fold 3: F1-macro=0.3753, AUC=0.5163, AUPR=0.1043, Gmean=0.4602
+  Fold 4: F1-macro=0.3954, AUC=0.4942, AUPR=0.0987, Gmean=0.4494
+  Fold 5: F1-macro=0.3805, AUC=0.4853, AUPR=0.1007, Gmean=0.4426
+  Mean: F1-macro=0.3899, AUC=0.5064, AUPR=0.1052, Gmean=0.4662
+==================================================
+Dataset: x1data.npz
+  Fold 1: F1-macro=0.4488, AUC=0.4309, AUPR=0.0975, Gmean=0.6025
+  Fold 2: F1-macro=0.4876, AUC=0.4310, AUPR=0.1181, Gmean=0.5936
+  Fold 3: F1-macro=0.3048, AUC=0.5262, AUPR=0.1854, Gmean=0.3309
+  Fold 4: F1-macro=0.4756, AUC=0.3310, AUPR=0.0847, Gmean=0.6268
+  Fold 5: F1-macro=0.3909, AUC=0.4857, AUPR=0.1339, Gmean=0.5071
+  Mean: F1-macro=0.4216, AUC=0.4409, AUPR=0.1239, Gmean=0.5322
+==================================================
+Dataset: x2data.npz
+  Fold 1: F1-macro=0.3986, AUC=0.5112, AUPR=0.1017, Gmean=0.4740
+  Fold 2: F1-macro=0.4071, AUC=0.4509, AUPR=0.0949, Gmean=0.5104
+  Fold 3: F1-macro=0.4008, AUC=0.4799, AUPR=0.0935, Gmean=0.4955
+  Fold 4: F1-macro=0.4059, AUC=0.4837, AUPR=0.0942, Gmean=0.4904
+  Fold 5: F1-macro=0.3972, AUC=0.5469, AUPR=0.1182, Gmean=0.4943
+  Mean: F1-macro=0.4019, AUC=0.4945, AUPR=0.1005, Gmean=0.4929
+==================================================
+Dataset: x3data.npz
+  Fold 1: F1-macro=0.3914, AUC=0.4790, AUPR=0.0996, Gmean=0.4891
+  Fold 2: F1-macro=0.4006, AUC=0.4971, AUPR=0.0997, Gmean=0.5071
+  Fold 3: F1-macro=0.4129, AUC=0.5041, AUPR=0.1049, Gmean=0.5287
+  Fold 4: F1-macro=0.4306, AUC=0.5192, AUPR=0.1107, Gmean=0.5648
+  Fold 5: F1-macro=0.4095, AUC=0.4670, AUPR=0.1006, Gmean=0.4985
+  Mean: F1-macro=0.4090, AUC=0.4933, AUPR=0.1031, Gmean=0.5176
+==================================================

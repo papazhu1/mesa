@@ -36,7 +36,7 @@ def get_config():
 if __name__ == "__main__":
     skf = StratifiedKFold(n_splits=5, shuffle=True)
     # dataset_name = "car_eval_4"
-    dataset = np.load("../zenodo_datasets/zenodo/x1data.npz")
+    dataset = np.load("../zenodo_datasets/zenodo/x2data.npz")
     print(dataset.files)
     X, y = dataset['data'], dataset['label']
     y = np.where(y == -1, 0, y)
