@@ -7,9 +7,10 @@ mailto: zhining.liu@outlook.com / v-zhinli@microsoft.com
 
 import os
 from gym import spaces
+
+from environment import EnsembleTrainingEnv
 from sac_src.sac import SAC
 from sac_src.replay_memory import ReplayMemory
-from gcForest_our_lab.myEnvironment import EnsembleTrainingEnv
 from utils import *
 
 
@@ -223,6 +224,7 @@ class Mesa(EnsembleTrainingEnv):
                 recent_scores_mean[0], recent_scores_mean[1], recent_scores_mean[2], by))
         return
 
+    # mesa 集成器核心 fit 函数
     def fit(self, X, y, X_valid, y_valid, n_estimators=None, verbose=False):
         """Build a MESA ensemble from training set (X, y) and validation set (X_valid, y_valid).
 

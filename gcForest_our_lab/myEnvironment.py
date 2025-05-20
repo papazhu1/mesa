@@ -122,7 +122,7 @@ class Ensemble():
         yield sklearn.metrics.average_precision_score(
             y, self.predict_proba(X)[:, 1])
 
-class EnsembleTrainingEnv(Ensemble):
+class MyEnsembleTrainingEnv(Ensemble):
     """The ensemble training environment in MESA.
 
     Parameters
@@ -151,8 +151,8 @@ class EnsembleTrainingEnv(Ensemble):
     """
     def __init__(self, args, base_estimator):
 
-        # super(EnsembleTrainingEnv, self).__init__(
-        #     base_estimator=base_estimator)
+        super(MyEnsembleTrainingEnv, self).__init__(
+            base_estimator=base_estimator)
 
         self.base_estimator_ = base_estimator
         self.args = args
@@ -179,10 +179,9 @@ class EnsembleTrainingEnv(Ensemble):
         self.n_samples = n_samples
 
     def init(self):
-        """Reset the environment."""
-        self.estimators_ = []
         # buffer the predict probabilities for better efficiency
-        # initialize 
+        # initialize
+        self.estimators_ = []
         self.y_pred_train_buffer = np.zeros_like(self.y_train)
         self.y_pred_valid_buffer = np.zeros_like(self.y_valid)
         if self.flag_use_test_set:
@@ -239,7 +238,7 @@ class EnsembleTrainingEnv(Ensemble):
             raise ValueError("Action must be a float in [0, 1].")
 
         # perform meta-sampling
-        X_maj_subset = meta_sampling(
+        X_maj_subset, X_idx = meta_sampling(
             y_pred = self.y_pred_train_buffer[self.mask_maj_train], 
             y_true = self.y_train[self.mask_maj_train],
             n_under_samples = self.n_samples,

@@ -1,4 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from BaseForest import BaseForest
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score, f1_score
@@ -35,7 +36,7 @@ class KFoldWrapper(object):
         # est_args["random_state"]=self.random_state
         return self.estimator_class(**est_args)
 
-    def fit(self, x, y):
+    def fit(self, x, y, X_valid, y_valid, X_test, y_test, gc):
 
         skf = StratifiedKFold(n_splits=self.n_fold, shuffle=True, random_state=self.random_state)
         cv = [(t, v) for (t, v) in skf.split(x, y)]
@@ -52,8 +53,8 @@ class KFoldWrapper(object):
             x_train = x[train_id]
             y_train = y[train_id]
 
-            x_train, y_train = RandomUnderSampler().fit_resample(x_train, y_train)  # 固定随机种子以保证结果可重复
-            est.fit(x_train, y_train)
+            # x_train, y_train = RandomUnderSampler().fit_resample(x_train, y_train)  # 固定随机种子以保证结果可重复
+            est.fit(x_train, y_train, X_valid, y_valid, X_test, y_test, train_id, gc)
             y_proba = est.predict_proba(x[val_id])
             y_pred = est.predict(x[val_id])
             LOGGER_2.info(

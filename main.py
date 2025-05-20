@@ -66,6 +66,8 @@ if __name__ == '__main__':
             n_estimators=args.max_estimators
         )
 
+        # 为什么是元训练完再集成训练
+
         # meta training
         mesa.meta_fit(X_train, y_train, X_valid, y_valid, X_test, y_test)
 
