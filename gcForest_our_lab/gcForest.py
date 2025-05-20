@@ -3,7 +3,6 @@ from sklearn import ensemble
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
-from evaluation import f1_macro
 from layer import Layer
 from logger import get_logger
 from k_fold_wrapper import KFoldWrapper
@@ -43,7 +42,7 @@ class gcForest(object):
         state_size = int(self.args.num_bins * 2)
         action_space = spaces.Box(low=0.0, high=1.0, shape=[1], dtype=np.float32)
         self.meta_sampler = SAC(state_size, action_space, self.args)
-        self.env = MyEnsembleTrainingEnv(self.args, DecisionTreeClassifier())
+        # self.env = MyEnsembleTrainingEnv(self.args, DecisionTreeClassifier())
         self.rater = Rater(metric=self.args.metric)
         self.memory = ReplayMemory(self.args.replay_size)
 
@@ -110,51 +109,51 @@ class gcForest(object):
     # 对训练集、验证集和测试集的预测结果进行评估
     def record_scores(self):
         """Record the training/validation/test performance scores."""
-        train_score = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer)
-        valid_score = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer)
-        test_score = self.env.rater.score(self.env.y_test,
-                                          self.env.y_pred_test_buffer) if self.env.flag_use_test_set else 'NULL'
+        train_score = self.rater.score(self.y_train, self.y_pred_train_buffer)
+        valid_score = self.rater.score(self.y_valid, self.y_pred_valid_buffer)
+        test_score = self.rater.score(self.y_test,
+                                          self.y_pred_test_buffer) if self.flag_use_test_set else 'NULL'
 
-        acc_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="acc")
-        acc_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="acc")
-        acc_test = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer,
-                                        method="acc") if self.env.flag_use_test_set else 'NULL'
+        acc_train = self.rater.score(self.y_train, self.y_pred_train_buffer, method="acc")
+        acc_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer, method="acc")
+        acc_test = self.rater.score(self.y_test, self.y_pred_test_buffer,
+                                        method="acc") if self.flag_use_test_set else 'NULL'
 
         print('acc_train: {:.3f} | acc_valid: {:.3f} | acc_test: {:.3f}'.format(acc_train, acc_valid, acc_test))
 
-        sen_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="sen")
-        sen_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="sen")
-        sen_test = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer,
-                                        method="sen") if self.env.flag_use_test_set else 'NULL'
+        sen_train = self.rater.score(self.y_train, self.y_pred_train_buffer, method="sen")
+        sen_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer, method="sen")
+        sen_test = self.rater.score(self.y_test, self.y_pred_test_buffer,
+                                        method="sen") if self.flag_use_test_set else 'NULL'
 
         print('sen_train: {:.3f} | sen_valid: {:.3f} | sen_test: {:.3f}'.format(sen_train, sen_valid, sen_test))
 
-        spe_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="spe")
-        spe_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="spe")
-        spe_test = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer,
-                                        method="spe") if self.env.flag_use_test_set else 'NULL'
+        spe_train = self.rater.score(self.y_train, self.y_pred_train_buffer, method="spe")
+        spe_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer, method="spe")
+        spe_test = self.rater.score(self.y_test, self.y_pred_test_buffer,
+                                        method="spe") if self.flag_use_test_set else 'NULL'
 
         print('spe_train: {:.3f} | spe_valid: {:.3f} | spe_test: {:.3f}'.format(spe_train, spe_valid, spe_test))
 
-        gmean_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="gmean")
-        gmean_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="gmean")
-        gmean_test = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer,
-                                          method="gmean") if self.env.flag_use_test_set else 'NULL'
+        gmean_train = self.rater.score(self.y_train, self.y_pred_train_buffer, method="gmean")
+        gmean_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer, method="gmean")
+        gmean_test = self.rater.score(self.y_test, self.y_pred_test_buffer,
+                                          method="gmean") if self.flag_use_test_set else 'NULL'
 
         print('gmean_train: {:.3f} | gmean_valid: {:.3f} | gmean_test: {:.3f}'.format(gmean_train, gmean_valid,
                                                                                       gmean_test))
 
-        f1macro_train = self.env.rater.score(self.env.y_train, self.env.y_pred_train_buffer, method="f1macro")
-        f1macro_valid = self.env.rater.score(self.env.y_valid, self.env.y_pred_valid_buffer, method="f1macro")
-        f1macro_test = self.env.rater.score(self.env.y_test, self.env.y_pred_test_buffer,
-                                            method="f1macro") if self.env.flag_use_test_set else 'NULL'
+        f1macro_train = self.rater.score(self.y_train, self.y_pred_train_buffer, method="f1macro")
+        f1macro_valid = self.rater.score(self.y_valid, self.y_pred_valid_buffer, method="f1macro")
+        f1macro_test = self.rater.score(self.y_test, self.y_pred_test_buffer,
+                                            method="f1macro") if self.flag_use_test_set else 'NULL'
 
         print('f1macro_train: {:.3f} | f1macro_valid: {:.3f} | f1macro_test: {:.3f}'.format(f1macro_train,
                                                                                             f1macro_valid,
                                                                                             f1macro_test))
 
         self.scores.append(
-            [train_score, valid_score, test_score] if self.env.flag_use_test_set else [train_score, valid_score])
+            [train_score, valid_score, test_score] if self.flag_use_test_set else [train_score, valid_score])
         return
 
     # 元训练初始化
@@ -162,10 +161,10 @@ class gcForest(object):
         # buffer the predict probabilities for better efficiency
         #
         self.estimators_ = []
-        self.y_pred_train_buffer = self.cascade_train_pred_proba
-        self.y_pred_valid_buffer = self.cascade_valid_pred_proba
+        self.y_pred_train_buffer = self.cascade_train_pred_proba[:, 1]
+        self.y_pred_valid_buffer = self.cascade_valid_pred_proba[:, 1]
         if self.flag_use_test_set:
-            self.y_pred_test_buffer = self.cascade_test_pred_proba
+            self.y_pred_test_buffer = self.cascade_test_pred_proba[:, 1]
         self._warm_up()
 
     # 这个函数只在第一次的时候用，所以是随机采样
@@ -184,8 +183,8 @@ class gcForest(object):
     def update_all_pred_buffer(self):
         """Update all buffered predict probabilities."""
         n_clf = len(self.estimators_)
-        print("n_clf: ", n_clf)
-        print("len(self.layers) * self.estimator_configs[0][\"n_estimators\"]: ", len(self.layers) * self.estimator_configs[0]["n_estimators"])
+        # print("n_clf: ", n_clf)
+        # print("len(self.layers) * self.estimator_configs[0][\"n_estimators\"]: ", len(self.layers) * self.estimator_configs[0]["n_estimators"])
         sum_num_ests = n_clf + len(self.layers) * self.estimator_configs[0]["n_estimators"]
 
         self.y_pred_train_buffer = self._update_pred_buffer(sum_num_ests, self.X_train, self.y_pred_train_buffer)
@@ -214,7 +213,7 @@ class gcForest(object):
         y_pred_updated : array-like of shape [n_samples]
         """
         y_pred_last_clf = self.estimators_[-1].predict_proba(X)[:, 1]
-        y_pred_buffer_updated = (y_pred_buffer[:, 1] * (sum_num_ests - 1) + y_pred_last_clf) / sum_num_ests
+        y_pred_buffer_updated = (y_pred_buffer * (sum_num_ests - 1) + y_pred_last_clf) / sum_num_ests
         return y_pred_buffer_updated
 
     # 获取当前的环境状态，基于训练和验证数据的错误分布直方图来表示状态。
@@ -337,7 +336,7 @@ class gcForest(object):
         # initialize replay memory and environment
 
         print("meta_fit begin---------------------------------")
-        self.env.load_data(X_train, y_train, X_valid, y_valid, X_test, y_test, train_ratio=self.args.train_ratio)
+        self.load_data(X_train, y_train, X_valid, y_valid, X_test, y_test, train_ratio=self.args.train_ratio)
         self.memory = memory_init_fulfill(self.args, ReplayMemory(self.args.replay_size))
 
         self.scores = []
@@ -355,8 +354,8 @@ class gcForest(object):
 
         while num_steps < total_steps:
             print("num_steps:", num_steps)
-            self.env.init()
-            state = self.env.get_state()
+            self.meta_fit_init()
+            state = self.get_state()
             done = False
 
             # for each episode
@@ -373,7 +372,7 @@ class gcForest(object):
                 # store transition
                 # print("action:")
                 # print(action)
-                next_state, reward, done, info = self.env.step(action[0])
+                next_state, reward, done, info = self.step(action[0])
                 reward = reward * self.args.reward_coefficient
                 self.memory.push(state, action, reward, next_state, float(done))
 
@@ -403,7 +402,7 @@ class gcForest(object):
         X_train, n_feature, n_label = self.preprocess(X_train, y_train)
         self.n_label = n_label
 
-        self.meta_fit(X_train, y_train, X_valid, y_valid, X_test, y_test)
+
 
         evaluate = self.train_evaluation
         best_layer_id = 0
@@ -432,6 +431,7 @@ class gcForest(object):
             y_valid_probas = np.zeros((X_valid.shape[0], n_label * len(self.estimator_configs)))
             y_test_probas = np.zeros((X_test.shape[0], n_label * len(self.estimator_configs)))
 
+            self.meta_fit(X_train, y_train, X_valid, y_valid, X_test, y_test)
 
             current_layer = Layer(depth)
             LOGGER.info(
@@ -468,18 +468,23 @@ class gcForest(object):
 
             y_train_probas_avg /= len(self.estimator_configs)
             self.cascade_train_pred_proba_sum += y_train_probas_avg
-            self.cascade_train_pred_proba = self.cascade_train_pred_proba_sum / len(self.estimator_configs)
+            self.cascade_train_pred_proba = self.cascade_train_pred_proba_sum / (len(self.layers) + 1)
 
             y_valid_probas_avg /= len(self.estimator_configs)
             self.cascade_valid_pred_proba_sum += y_valid_probas_avg
-            self.cascade_valid_pred_proba = self.cascade_valid_pred_proba_sum / len(self.estimator_configs)
+            self.cascade_valid_pred_proba = self.cascade_valid_pred_proba_sum / (len(self.layers) + 1)
 
             y_test_probas_avg /= len(self.estimator_configs)
             self.cascade_test_pred_proba_sum += y_test_probas_avg
-            self.cascade_test_pred_proba = self.cascade_test_pred_proba_sum / len(self.estimator_configs)
+            self.cascade_test_pred_proba = self.cascade_test_pred_proba_sum / (len(self.layers) + 1)
 
-            label_tmp = self.category[np.argmax(y_train_probas_avg, axis=1)]
-            current_evaluation = evaluate(y_train, label_tmp)
+            # label_tmp = self.category[np.argmax(y_train_probas_avg, axis=1)]
+            label_tmp = self.category[np.argmax(self.cascade_train_pred_proba, axis=1)]
+
+            if (type(self.train_evaluation) == np.float64):
+                print(type(self.train_evaluation))
+                print(self.train_evaluation)
+            current_evaluation = self.train_evaluation(y_train, label_tmp)
 
             # 如果堆叠的话，将所有层的4个森林的类概率向量都拼接在一起，否则只拼接当前层的4个森林的类概率向量
             if self.if_stacking:
@@ -517,24 +522,31 @@ class gcForest(object):
         label = self.category[np.argmax(prob, axis=1)]
         return label
 
-    def predict_proba(self, x):
-        x_test = x.copy()
-        x_test = x_test.reshape((x.shape[0], -1))
-        n_feature = x_test.shape[1]
+    def predict_proba(self, X):
+        X_test = X.copy()
+        X_test = X_test.reshape((X.shape[0], -1))
+        n_feature = X_test.shape[1]
         # print(x_test.shape)
         x_test_proba = None
+        _x_test_proba = None
+        cascade_test_pred_proba_sum = np.zeros((X_test.shape[0], self.n_label))
         for index in range(len(self.layers)):
 
             # 前几层的森林返回堆叠后的一层中的4个类概率向量，最后一层的森林返回的是类概率向量
             if index == len(self.layers) - 1:
                 # print(index)
-                x_test_proba = self.layers[index]._predict_proba(x_test)
+                _x_test_proba = self.layers[index]._predict_proba(X_test)
+                x_test_proba = self.layers[index].predict_proba(X_test)
+                cascade_test_pred_proba_sum += _x_test_proba
             else:
-                x_test_proba = self.layers[index].predict_proba(x_test)
+                x_test_proba = self.layers[index].predict_proba(X_test)
+                _x_test_proba = self.layers[index]._predict_proba(X_test)
+                cascade_test_pred_proba_sum += _x_test_proba
                 if not self.if_stacking:
-                    x_test = x_test[:, 0:n_feature]
-                x_test = np.hstack((x_test, x_test_proba))
-        return x_test_proba
+                    X_test = X_test[:, 0:n_feature]
+                X_test = np.hstack((X_test, x_test_proba))
+        res = cascade_test_pred_proba_sum / len(self.layers)
+        return res
 
     # 这个代码返回的是训练样本、特征数、标签数
     def preprocess(self, X_train, y_train):

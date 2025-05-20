@@ -22,7 +22,7 @@ def get_config():
     config["early_stop_rounds"] = 1
     config["if_stacking"] = False
     config["if_save_model"] = False
-    config["train_evaluation"] = accuracy  ##f1_binary,f1_macro,f1_micro
+    config["train_evaluation"] = f1_macro  ##f1_binary,f1_macro,f1_micro
     config["estimator_configs"] = []
     for i in range(2):
         config["estimator_configs"].append(
@@ -73,22 +73,22 @@ if __name__ == "__main__":
         y_pred_proba = model.predict_proba(X_test_cv)[:, 1]  # 获取预测的概率值，用于计算 AUC 和 AUPR
 
         # 计算性能指标
-        f1_macro = f1_score(y_test_cv, y_pred, average='macro')
-        auc = roc_auc_score(y_test_cv, y_pred_proba)
-        aupr = average_precision_score(y_test_cv, y_pred_proba)
-        gmean = geometric_mean_score(y_test_cv, y_pred)
+        f1_macro_val = f1_score(y_test_cv, y_pred, average='macro')
+        auc_val = roc_auc_score(y_test_cv, y_pred_proba)
+        aupr_val = average_precision_score(y_test_cv, y_pred_proba)
+        gmean_val = geometric_mean_score(y_test_cv, y_pred)
 
         # 保存每轮的性能指标
-        f1_macro_list.append(f1_macro)
-        auc_list.append(auc)
-        aupr_list.append(aupr)
-        gmean_list.append(gmean)
+        f1_macro_list.append(f1_macro_val)
+        auc_list.append(auc_val)
+        aupr_list.append(aupr_val)
+        gmean_list.append(gmean_val)
 
         # 输出当前训练集比例和各项指标
-        print(f"F1-macro: {f1_macro:.4f}")
-        print(f"AUC: {auc:.4f}")
-        print(f"AUPR: {aupr:.4f}")
-        print(f"Gmean: {gmean:.4f}")
+        print(f"F1-macro: {f1_macro_val:.4f}")
+        print(f"AUC: {auc_val:.4f}")
+        print(f"AUPR: {aupr_val:.4f}")
+        print(f"Gmean: {gmean_val:.4f}")
         print("-" * 40)
 
     print(f1_macro_list)

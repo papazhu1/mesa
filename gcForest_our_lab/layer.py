@@ -10,12 +10,14 @@ class Layer(object):
         if estimator is not None:
             self.estimators.append(estimator)
 
+    # 返回的是8个类概率向量
     def predict_proba(self, x):
         proba = None
         for est in self.estimators:
             proba = est.predict_proba(x) if proba is None else np.hstack((proba, est.predict_proba(x)))
         return proba
 
+    # 返回的是概率向量的平均结果
     def _predict_proba(self, x_test):
         proba = None
         for est in self.estimators:

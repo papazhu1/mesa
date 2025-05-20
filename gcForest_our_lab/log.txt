@@ -10175,3 +10175,1613 @@
 2025-05-20 22:30:23,646 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8622
 2025-05-20 22:30:23,646 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7582
 2025-05-20 22:30:23,646 - KFoldWrapper -  ----------
+2025-05-20 22:30:25,603 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 22:30:26,429 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:30:27,236 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:30:28,243 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 22:30:29,064 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 22:30:29,064 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7394
+2025-05-20 22:30:29,064 - KFoldWrapper -  ----------
+2025-05-20 22:30:30,169 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9023
+2025-05-20 22:30:30,171 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:30:30,171 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:30:30,946 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.7907, f1_score=0.6701
+2025-05-20 22:30:31,781 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:32,476 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 22:30:33,193 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:33,894 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:30:33,894 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7468
+2025-05-20 22:30:33,894 - KFoldWrapper -  ----------
+2025-05-20 22:30:35,673 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.4625
+2025-05-20 22:30:36,401 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:37,086 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:30:37,784 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:38,466 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:30:38,467 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7321
+2025-05-20 22:30:38,467 - KFoldWrapper -  ----------
+2025-05-20 22:30:40,246 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.8140, f1_score=0.4487
+2025-05-20 22:30:40,958 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 22:30:41,640 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 22:30:42,327 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9222
+2025-05-20 22:30:43,029 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:30:43,030 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7039
+2025-05-20 22:30:43,030 - KFoldWrapper -  ----------
+2025-05-20 22:30:44,789 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:30:45,499 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:30:46,270 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8140, f1_score=0.6126
+2025-05-20 22:30:46,984 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 22:30:47,684 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 22:30:47,685 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.8977, f1_score=0.7215
+2025-05-20 22:30:47,685 - KFoldWrapper -  ----------
+2025-05-20 22:30:48,784 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9070
+2025-05-20 22:30:48,786 - gcForest -  -----------------------------------------layer-2--------------------------------------------
+2025-05-20 22:30:48,786 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:30:49,469 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 22:30:50,153 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_1,Accuracy=0.7907, f1_score=0.5922
+2025-05-20 22:30:50,837 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.4756
+2025-05-20 22:30:51,535 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 22:30:52,249 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_4,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:30:52,249 - KFoldWrapper -  layer_2, estimator_0, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.6757
+2025-05-20 22:30:52,249 - KFoldWrapper -  ----------
+2025-05-20 22:30:54,075 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:54,775 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:30:55,475 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.4557
+2025-05-20 22:30:56,179 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 22:30:56,876 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:30:56,877 - KFoldWrapper -  layer_2, estimator_1, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.6599
+2025-05-20 22:30:56,877 - KFoldWrapper -  ----------
+2025-05-20 22:30:58,648 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 22:30:59,316 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:31:00,060 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 22:31:00,771 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:31:01,566 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:31:01,566 - KFoldWrapper -  layer_2, estimator_2, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7113
+2025-05-20 22:31:01,566 - KFoldWrapper -  ----------
+2025-05-20 22:31:03,472 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:31:04,266 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 22:31:05,160 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:31:05,902 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:31:06,720 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_4,Accuracy=0.8372, f1_score=0.5657
+2025-05-20 22:31:06,720 - KFoldWrapper -  layer_2, estimator_3, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.7028
+2025-05-20 22:31:06,720 - KFoldWrapper -  ----------
+2025-05-20 22:31:07,809 - gcForest -  The evaluation[accuracy] of layer_2 is 0.9070
+2025-05-20 22:31:07,809 - gcForest -  training finish...
+2025-05-20 22:31:07,809 - gcForest -  best_layer: 1, current_layer:2, save layers: 2
+2025-05-20 22:31:39,459 - gcForest -  Begin to train....
+2025-05-20 22:31:39,459 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:31:39,459 - gcForest -  use <function accuracy at 0x000001E70C92BE18> as training evaluation
+2025-05-20 22:31:39,459 - gcForest -  stacking: False, save model: False
+2025-05-20 22:31:49,300 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:31:49,300 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 22:31:50,003 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 22:31:50,656 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:31:51,321 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 22:31:52,006 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:31:52,693 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 22:31:52,694 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.8925, f1_score=0.7350
+2025-05-20 22:31:52,694 - KFoldWrapper -  ----------
+2025-05-20 22:31:54,449 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:31:55,103 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:31:55,769 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:31:56,444 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 22:31:57,098 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:31:57,099 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7564
+2025-05-20 22:31:57,099 - KFoldWrapper -  ----------
+2025-05-20 22:31:58,856 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8140, f1_score=0.6126
+2025-05-20 22:31:59,508 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:32:00,164 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:32:00,831 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:32:01,499 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.5855
+2025-05-20 22:32:01,499 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8972, f1_score=0.7419
+2025-05-20 22:32:01,499 - KFoldWrapper -  ----------
+2025-05-20 22:32:03,244 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:32:03,911 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:32:04,565 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:32:05,221 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 22:32:05,908 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:32:05,908 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7811
+2025-05-20 22:32:05,908 - KFoldWrapper -  ----------
+2025-05-20 22:32:40,610 - gcForest -  Begin to train....
+2025-05-20 22:32:40,611 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:32:40,611 - gcForest -  use <function accuracy at 0x00000236BC46BE18> as training evaluation
+2025-05-20 22:32:40,611 - gcForest -  stacking: False, save model: False
+2025-05-20 22:32:50,882 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:32:50,882 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 22:32:51,583 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8625
+2025-05-20 22:32:52,246 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9773, f1_score=0.9481
+2025-05-20 22:32:52,917 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:32:53,589 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 22:32:54,258 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 22:32:54,258 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9439, f1_score=0.8592
+2025-05-20 22:32:54,258 - KFoldWrapper -  ----------
+2025-05-20 22:32:56,007 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 22:32:56,675 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 22:32:57,330 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8205
+2025-05-20 22:32:57,993 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:32:58,645 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:32:58,646 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9486, f1_score=0.8685
+2025-05-20 22:32:58,646 - KFoldWrapper -  ----------
+2025-05-20 22:33:00,384 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 22:33:01,037 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9773, f1_score=0.9381
+2025-05-20 22:33:01,703 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:33:02,352 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:33:03,018 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 22:33:03,019 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8271
+2025-05-20 22:33:03,019 - KFoldWrapper -  ----------
+2025-05-20 22:33:04,755 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 22:33:05,428 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 22:33:06,093 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 22:33:06,744 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:33:07,397 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:33:07,398 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9486, f1_score=0.8732
+2025-05-20 22:33:07,398 - KFoldWrapper -  ----------
+2025-05-20 22:33:08,479 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9439
+2025-05-20 22:33:08,480 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:33:08,481 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 22:33:09,147 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:33:09,818 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:33:10,485 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:33:11,155 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 22:33:11,825 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 22:33:11,825 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8170
+2025-05-20 22:33:11,825 - KFoldWrapper -  ----------
+2025-05-20 22:33:13,585 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 22:33:14,239 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 22:33:14,926 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 22:33:15,598 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 22:33:16,262 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:33:16,263 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8170
+2025-05-20 22:33:16,263 - KFoldWrapper -  ----------
+2025-05-20 22:33:18,009 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:33:18,678 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 22:33:19,347 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:33:20,014 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:33:20,683 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:33:20,684 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8330
+2025-05-20 22:33:20,684 - KFoldWrapper -  ----------
+2025-05-20 22:33:22,437 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:33:23,167 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:33:23,883 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:33:24,594 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:33:25,276 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 22:33:25,276 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8249
+2025-05-20 22:33:25,276 - KFoldWrapper -  ----------
+2025-05-20 22:33:26,365 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9299
+2025-05-20 22:33:26,366 - gcForest -  training finish...
+2025-05-20 22:33:26,366 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 22:33:33,100 - gcForest -  Begin to train....
+2025-05-20 22:33:33,100 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 22:33:33,100 - gcForest -  use <function accuracy at 0x00000236BC46BE18> as training evaluation
+2025-05-20 22:33:33,100 - gcForest -  stacking: False, save model: False
+2025-05-20 22:33:42,930 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:33:42,930 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 22:33:43,635 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:33:44,305 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 22:42:40,476 - gcForest -  Begin to train....
+2025-05-20 22:42:40,478 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:42:40,478 - gcForest -  use <function accuracy at 0x000001E9B502BE18> as training evaluation
+2025-05-20 22:42:40,478 - gcForest -  stacking: False, save model: False
+2025-05-20 22:43:04,693 - gcForest -  Begin to train....
+2025-05-20 22:43:04,694 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:43:04,694 - gcForest -  use <function accuracy at 0x000002377C4BBE18> as training evaluation
+2025-05-20 22:43:04,694 - gcForest -  stacking: False, save model: False
+2025-05-20 22:43:24,777 - gcForest -  Begin to train....
+2025-05-20 22:43:24,778 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:43:24,778 - gcForest -  use <function accuracy at 0x000002827099BE18> as training evaluation
+2025-05-20 22:43:24,778 - gcForest -  stacking: False, save model: False
+2025-05-20 22:44:03,724 - gcForest -  Begin to train....
+2025-05-20 22:44:03,725 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:44:03,725 - gcForest -  use <function accuracy at 0x0000020D03F6BE18> as training evaluation
+2025-05-20 22:44:03,725 - gcForest -  stacking: False, save model: False
+2025-05-20 22:44:53,500 - gcForest -  Begin to train....
+2025-05-20 22:44:53,500 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:44:53,500 - gcForest -  use <function accuracy at 0x0000023A09F9BE18> as training evaluation
+2025-05-20 22:44:53,500 - gcForest -  stacking: False, save model: False
+2025-05-20 22:45:03,408 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:45:03,408 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 22:45:04,126 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 22:45:04,799 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:45:05,468 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:45:06,139 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 22:45:06,806 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:45:06,806 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8188
+2025-05-20 22:45:06,807 - KFoldWrapper -  ----------
+2025-05-20 22:45:08,604 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 22:45:09,303 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:45:09,974 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:45:10,644 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:45:11,327 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:45:11,328 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.8018
+2025-05-20 22:45:11,328 - KFoldWrapper -  ----------
+2025-05-20 22:45:13,074 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7708
+2025-05-20 22:45:13,741 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:45:14,411 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:45:15,067 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 22:45:15,736 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 22:45:15,736 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7885
+2025-05-20 22:45:15,736 - KFoldWrapper -  ----------
+2025-05-20 22:45:17,498 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:45:18,150 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:45:18,819 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:45:19,484 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:45:20,141 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:45:20,142 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8435
+2025-05-20 22:45:20,142 - KFoldWrapper -  ----------
+2025-05-20 22:45:21,232 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9206
+2025-05-20 22:45:31,198 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:45:31,198 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 22:45:31,889 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 22:45:32,557 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:45:33,254 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:45:33,918 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 22:45:34,598 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 22:45:34,599 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9019, f1_score=0.7875
+2025-05-20 22:45:34,599 - KFoldWrapper -  ----------
+2025-05-20 22:45:36,384 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:45:37,046 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:45:37,715 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:45:38,418 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 22:45:39,085 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 22:45:39,086 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9019, f1_score=0.7809
+2025-05-20 22:45:39,086 - KFoldWrapper -  ----------
+2025-05-20 22:45:40,857 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 22:45:41,540 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:45:42,209 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:45:42,880 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 22:45:43,548 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 22:45:43,549 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7945
+2025-05-20 22:45:43,549 - KFoldWrapper -  ----------
+2025-05-20 22:45:45,306 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:45:45,976 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 22:45:46,643 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:45:47,311 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:45:47,984 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:45:47,985 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7945
+2025-05-20 22:45:47,985 - KFoldWrapper -  ----------
+2025-05-20 22:45:49,079 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9159
+2025-05-20 22:45:49,079 - gcForest -  training finish...
+2025-05-20 22:45:49,080 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 22:45:55,799 - gcForest -  Begin to train....
+2025-05-20 22:45:55,799 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 22:45:55,799 - gcForest -  use <function accuracy at 0x0000023A09F9BE18> as training evaluation
+2025-05-20 22:45:55,799 - gcForest -  stacking: False, save model: False
+2025-05-20 22:46:05,617 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:46:05,617 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 22:46:06,320 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6906
+2025-05-20 22:46:06,986 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:46:07,638 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:46:08,291 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:46:08,948 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:46:08,949 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.8124
+2025-05-20 22:46:08,949 - KFoldWrapper -  ----------
+2025-05-20 22:46:10,704 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 22:46:11,420 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:46:12,088 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:46:12,756 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 22:46:13,429 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 22:46:13,430 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8416
+2025-05-20 22:46:13,430 - KFoldWrapper -  ----------
+2025-05-20 22:46:15,183 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 22:46:15,851 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:46:16,518 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:46:17,185 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:46:17,857 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 22:46:17,857 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8296
+2025-05-20 22:46:17,857 - KFoldWrapper -  ----------
+2025-05-20 22:46:19,613 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 22:46:20,266 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:46:20,951 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:46:21,606 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:46:22,260 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:46:22,261 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9442, f1_score=0.8539
+2025-05-20 22:46:22,261 - KFoldWrapper -  ----------
+2025-05-20 22:46:23,350 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9395
+2025-05-20 22:46:33,371 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:46:33,371 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:46:34,077 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:46:34,749 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:46:35,417 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:46:36,088 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:46:36,754 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:46:36,754 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8094
+2025-05-20 22:46:36,754 - KFoldWrapper -  ----------
+2025-05-20 22:46:38,515 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:46:39,184 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 22:46:39,853 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:46:40,521 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:46:41,188 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:46:41,189 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8152
+2025-05-20 22:46:41,189 - KFoldWrapper -  ----------
+2025-05-20 22:46:42,947 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9381
+2025-05-20 22:46:43,617 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:46:44,290 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:46:44,946 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.7434
+2025-05-20 22:46:45,602 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:46:45,602 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9209, f1_score=0.8228
+2025-05-20 22:46:45,602 - KFoldWrapper -  ----------
+2025-05-20 22:46:47,359 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 22:46:48,023 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:46:48,686 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 22:46:49,357 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:46:50,025 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 22:46:50,026 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.8306
+2025-05-20 22:46:50,026 - KFoldWrapper -  ----------
+2025-05-20 22:46:51,114 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9256
+2025-05-20 22:46:51,114 - gcForest -  training finish...
+2025-05-20 22:46:51,114 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 22:46:57,869 - gcForest -  Begin to train....
+2025-05-20 22:46:57,869 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 22:46:57,869 - gcForest -  use <function accuracy at 0x0000023A09F9BE18> as training evaluation
+2025-05-20 22:46:57,869 - gcForest -  stacking: False, save model: False
+2025-05-20 22:47:07,646 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:47:07,646 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 22:47:08,355 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:47:09,039 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:47:09,708 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:47:10,376 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:47:11,059 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:47:11,059 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8469
+2025-05-20 22:47:11,059 - KFoldWrapper -  ----------
+2025-05-20 22:47:12,816 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:47:13,469 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:47:14,153 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:47:14,836 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 22:47:15,523 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:47:15,523 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9395, f1_score=0.8601
+2025-05-20 22:47:15,523 - KFoldWrapper -  ----------
+2025-05-20 22:47:17,279 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:47:17,945 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:47:18,610 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.7174
+2025-05-20 22:47:19,280 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:47:19,963 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:47:19,964 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8386
+2025-05-20 22:47:19,964 - KFoldWrapper -  ----------
+2025-05-20 22:47:21,706 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:47:22,359 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 22:47:23,010 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:47:23,666 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:47:24,331 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:47:24,332 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8031
+2025-05-20 22:47:24,332 - KFoldWrapper -  ----------
+2025-05-20 22:47:25,420 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9302
+2025-05-20 22:47:35,319 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:47:35,319 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:47:36,034 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:47:36,735 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:47:37,435 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 22:47:38,119 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 22:47:38,813 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:47:38,814 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.8134
+2025-05-20 22:47:38,814 - KFoldWrapper -  ----------
+2025-05-20 22:47:40,569 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:47:41,237 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:47:41,903 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:47:42,590 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 22:47:43,257 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:47:43,258 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:47:43,258 - KFoldWrapper -  ----------
+2025-05-20 22:47:45,013 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:47:45,687 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:47:46,359 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:47:47,011 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:47:47,666 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:47:47,666 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8483
+2025-05-20 22:47:47,666 - KFoldWrapper -  ----------
+2025-05-20 22:47:49,423 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:47:50,092 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:47:50,758 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:47:51,413 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.6828
+2025-05-20 22:47:52,077 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:47:52,078 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.8306
+2025-05-20 22:47:52,078 - KFoldWrapper -  ----------
+2025-05-20 22:47:53,164 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9349
+2025-05-20 22:48:03,045 - gcForest -  -----------------------------------------layer-2--------------------------------------------
+2025-05-20 22:48:03,045 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:48:03,745 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:48:04,417 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:48:05,086 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:48:05,759 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:48:06,410 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:48:06,411 - KFoldWrapper -  layer_2, estimator_0, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.8019
+2025-05-20 22:48:06,411 - KFoldWrapper -  ----------
+2025-05-20 22:48:08,148 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:48:08,815 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:48:09,486 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:48:10,168 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:48:10,839 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_4,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:48:10,839 - KFoldWrapper -  layer_2, estimator_1, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8206
+2025-05-20 22:48:10,839 - KFoldWrapper -  ----------
+2025-05-20 22:48:12,599 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:48:13,265 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:48:13,934 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:48:14,600 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:48:15,285 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:48:15,285 - KFoldWrapper -  layer_2, estimator_2, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8483
+2025-05-20 22:48:15,285 - KFoldWrapper -  ----------
+2025-05-20 22:48:17,048 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 22:48:17,724 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:48:18,391 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:48:19,058 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 22:48:19,743 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:48:19,743 - KFoldWrapper -  layer_2, estimator_3, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.8185
+2025-05-20 22:48:19,743 - KFoldWrapper -  ----------
+2025-05-20 22:48:20,829 - gcForest -  The evaluation[accuracy] of layer_2 is 0.9302
+2025-05-20 22:48:20,829 - gcForest -  training finish...
+2025-05-20 22:48:20,829 - gcForest -  best_layer: 1, current_layer:2, save layers: 2
+2025-05-20 22:48:31,966 - gcForest -  Begin to train....
+2025-05-20 22:48:31,966 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 22:48:31,966 - gcForest -  use <function accuracy at 0x0000023A09F9BE18> as training evaluation
+2025-05-20 22:48:31,966 - gcForest -  stacking: False, save model: False
+2025-05-20 22:48:41,869 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:48:41,869 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 22:48:42,566 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:48:43,218 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 22:48:43,873 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:48:44,531 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:48:45,193 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:48:45,194 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7655
+2025-05-20 22:48:45,194 - KFoldWrapper -  ----------
+2025-05-20 22:48:46,955 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 22:48:47,627 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 22:48:48,292 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 22:48:48,955 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 22:48:49,609 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 22:48:49,609 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7655
+2025-05-20 22:48:49,609 - KFoldWrapper -  ----------
+2025-05-20 22:48:51,361 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.7672
+2025-05-20 22:48:52,030 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:48:52,682 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:48:53,366 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:48:54,053 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 22:48:54,053 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7812
+2025-05-20 22:48:54,053 - KFoldWrapper -  ----------
+2025-05-20 22:48:55,809 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:48:56,476 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 22:48:57,128 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:48:57,781 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:48:58,436 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 22:48:58,436 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7956
+2025-05-20 22:48:58,436 - KFoldWrapper -  ----------
+2025-05-20 22:48:59,525 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9256
+2025-05-20 22:49:09,500 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:49:09,500 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:49:10,200 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.6364
+2025-05-20 22:49:10,876 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 22:49:11,542 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:49:12,224 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 22:49:12,907 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:49:12,907 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.8977, f1_score=0.7742
+2025-05-20 22:49:12,907 - KFoldWrapper -  ----------
+2025-05-20 22:49:14,662 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9381
+2025-05-20 22:49:15,331 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:49:16,002 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 22:49:16,671 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:49:17,343 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 22:49:17,343 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7882
+2025-05-20 22:49:17,343 - KFoldWrapper -  ----------
+2025-05-20 22:49:19,090 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:49:19,755 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 22:49:20,424 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 22:49:21,111 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:49:21,776 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 22:49:21,777 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7882
+2025-05-20 22:49:21,777 - KFoldWrapper -  ----------
+2025-05-20 22:49:23,542 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 22:49:24,209 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:49:24,880 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 22:49:25,549 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:49:26,224 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.7429
+2025-05-20 22:49:26,224 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7937
+2025-05-20 22:49:26,224 - KFoldWrapper -  ----------
+2025-05-20 22:49:27,311 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9209
+2025-05-20 22:49:27,311 - gcForest -  training finish...
+2025-05-20 22:49:27,312 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 22:49:34,040 - gcForest -  Begin to train....
+2025-05-20 22:49:34,040 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 22:49:34,040 - gcForest -  use <function accuracy at 0x0000023A09F9BE18> as training evaluation
+2025-05-20 22:49:34,040 - gcForest -  stacking: False, save model: False
+2025-05-20 22:49:43,931 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:49:43,931 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 22:49:44,622 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:49:45,276 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8182, f1_score=0.6944
+2025-05-20 22:49:45,943 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 22:49:46,596 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:49:47,266 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:49:47,266 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8031
+2025-05-20 22:49:47,266 - KFoldWrapper -  ----------
+2025-05-20 22:49:49,022 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 22:49:49,685 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 22:49:50,349 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 22:49:50,997 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:49:51,668 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:49:51,669 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9209, f1_score=0.8228
+2025-05-20 22:49:51,669 - KFoldWrapper -  ----------
+2025-05-20 22:49:53,422 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 22:49:54,073 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 22:49:54,725 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 22:49:55,376 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:49:56,046 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:49:56,047 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8469
+2025-05-20 22:49:56,047 - KFoldWrapper -  ----------
+2025-05-20 22:49:57,790 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 22:49:58,458 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 22:49:59,113 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:49:59,763 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:50:00,417 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 22:50:00,417 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8094
+2025-05-20 22:50:00,417 - KFoldWrapper -  ----------
+2025-05-20 22:50:01,504 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9395
+2025-05-20 22:50:11,420 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:50:11,420 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 22:50:12,117 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 22:50:12,785 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 22:50:13,449 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 22:50:14,123 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 22:50:14,784 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 22:50:14,785 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.8250
+2025-05-20 22:50:14,785 - KFoldWrapper -  ----------
+2025-05-20 22:50:16,541 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 22:50:17,208 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8409, f1_score=0.6841
+2025-05-20 22:50:17,873 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 22:50:18,545 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.7429
+2025-05-20 22:50:19,214 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8205
+2025-05-20 22:50:19,215 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.8977, f1_score=0.7594
+2025-05-20 22:50:19,215 - KFoldWrapper -  ----------
+2025-05-20 22:50:20,969 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:50:21,654 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.7672
+2025-05-20 22:50:22,320 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 22:50:22,990 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 22:50:23,647 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 22:50:23,647 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8031
+2025-05-20 22:50:23,647 - KFoldWrapper -  ----------
+2025-05-20 22:50:25,416 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 22:50:26,098 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 22:50:26,766 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 22:50:27,487 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 22:50:28,155 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:50:28,155 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.8306
+2025-05-20 22:50:28,155 - KFoldWrapper -  ----------
+2025-05-20 22:50:29,241 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9349
+2025-05-20 22:50:29,241 - gcForest -  training finish...
+2025-05-20 22:50:29,241 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 22:56:34,124 - gcForest -  Begin to train....
+2025-05-20 22:56:34,124 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 22:56:34,124 - gcForest -  use <function accuracy at 0x0000014C71D1BD90> as training evaluation
+2025-05-20 22:56:34,124 - gcForest -  stacking: False, save model: False
+2025-05-20 22:56:44,247 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 22:56:44,247 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 22:56:44,972 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7708
+2025-05-20 22:56:45,666 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 22:56:46,368 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 22:56:47,036 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:56:47,706 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8205
+2025-05-20 22:56:47,707 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7729
+2025-05-20 22:56:47,707 - KFoldWrapper -  ----------
+2025-05-20 22:56:49,466 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6120
+2025-05-20 22:56:50,138 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 22:56:50,821 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 22:56:51,488 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 22:56:52,176 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8205
+2025-05-20 22:56:52,177 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7564
+2025-05-20 22:56:52,177 - KFoldWrapper -  ----------
+2025-05-20 22:56:53,927 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 22:56:54,594 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.7672
+2025-05-20 22:56:55,279 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:56:55,942 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 22:56:56,614 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 22:56:56,614 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8138
+2025-05-20 22:56:56,614 - KFoldWrapper -  ----------
+2025-05-20 22:56:58,372 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6906
+2025-05-20 22:56:59,050 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 22:56:59,724 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:57:00,389 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 22:57:01,057 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 22:57:01,057 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8051
+2025-05-20 22:57:01,057 - KFoldWrapper -  ----------
+2025-05-20 22:57:02,140 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9159
+2025-05-20 22:57:12,231 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 22:57:12,231 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 22:57:12,991 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 22:57:13,784 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 22:57:14,544 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.8333, f1_score=0.5644
+2025-05-20 22:57:15,259 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 22:57:15,962 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 22:57:15,962 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7881
+2025-05-20 22:57:15,963 - KFoldWrapper -  ----------
+2025-05-20 23:01:54,864 - gcForest -  Begin to train....
+2025-05-20 23:01:54,865 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:01:54,865 - gcForest -  use <function accuracy at 0x000002011945BD90> as training evaluation
+2025-05-20 23:01:54,865 - gcForest -  stacking: False, save model: False
+2025-05-20 23:02:04,641 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:02:04,641 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:02:05,331 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:02:06,002 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:02:06,655 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:02:07,324 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:02:08,001 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:02:08,002 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8041
+2025-05-20 23:02:08,002 - KFoldWrapper -  ----------
+2025-05-20 23:02:09,746 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:02:10,403 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:02:11,057 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.5657
+2025-05-20 23:02:11,710 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:02:12,368 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:02:12,368 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9159, f1_score=0.7888
+2025-05-20 23:02:12,368 - KFoldWrapper -  ----------
+2025-05-20 23:02:14,111 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6906
+2025-05-20 23:02:14,764 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:02:15,427 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:02:16,083 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:02:16,734 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:02:16,734 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9346, f1_score=0.8152
+2025-05-20 23:02:16,734 - KFoldWrapper -  ----------
+2025-05-20 23:02:18,482 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:02:19,168 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:02:19,840 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:02:20,510 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:02:21,198 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:02:21,198 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8041
+2025-05-20 23:02:21,198 - KFoldWrapper -  ----------
+2025-05-20 23:02:22,298 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9299
+2025-05-20 23:02:32,152 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:02:32,153 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:02:32,857 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:02:33,538 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:02:34,224 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.4756
+2025-05-20 23:02:34,908 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:02:35,567 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:02:35,568 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7735
+2025-05-20 23:02:35,568 - KFoldWrapper -  ----------
+2025-05-20 23:02:37,326 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:02:37,998 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:02:38,669 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:02:39,368 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:02:40,024 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 23:02:40,025 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7811
+2025-05-20 23:02:40,025 - KFoldWrapper -  ----------
+2025-05-20 23:02:41,771 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:02:42,439 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.6977, f1_score=0.5905
+2025-05-20 23:02:43,094 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:02:43,749 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:02:44,420 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:02:44,421 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.8692, f1_score=0.7208
+2025-05-20 23:02:44,421 - KFoldWrapper -  ----------
+2025-05-20 23:02:46,169 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9481
+2025-05-20 23:02:46,837 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:02:47,493 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:02:48,144 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:02:48,800 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:02:48,801 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7885
+2025-05-20 23:02:48,801 - KFoldWrapper -  ----------
+2025-05-20 23:02:49,886 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9252
+2025-05-20 23:02:49,886 - gcForest -  training finish...
+2025-05-20 23:02:49,887 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:03:00,893 - gcForest -  Begin to train....
+2025-05-20 23:03:00,894 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:03:00,894 - gcForest -  use <function accuracy at 0x000002011945BD90> as training evaluation
+2025-05-20 23:03:00,894 - gcForest -  stacking: False, save model: False
+2025-05-20 23:03:11,113 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:03:11,113 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:03:11,837 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:03:12,568 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:03:13,248 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.5657
+2025-05-20 23:03:13,910 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:03:14,575 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:03:14,575 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7642
+2025-05-20 23:03:14,575 - KFoldWrapper -  ----------
+2025-05-20 23:03:16,329 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8625
+2025-05-20 23:03:16,998 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8140, f1_score=0.4487
+2025-05-20 23:03:17,668 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:03:18,367 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:03:19,040 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:03:19,040 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7468
+2025-05-20 23:03:19,040 - KFoldWrapper -  ----------
+2025-05-20 23:03:20,818 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:03:21,516 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:03:22,186 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:03:22,854 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:03:23,567 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:03:23,567 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8977, f1_score=0.7420
+2025-05-20 23:03:23,567 - KFoldWrapper -  ----------
+2025-05-20 23:03:25,329 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 23:03:25,998 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:03:26,667 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:03:27,333 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:03:28,009 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:03:28,009 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7582
+2025-05-20 23:03:28,009 - KFoldWrapper -  ----------
+2025-05-20 23:03:29,104 - gcForest -  The evaluation[accuracy] of layer_0 is 0.9070
+2025-05-20 23:03:39,343 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:03:39,343 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:03:40,046 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6906
+2025-05-20 23:03:40,732 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 23:03:41,401 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:03:42,085 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:03:42,757 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8333, f1_score=0.6815
+2025-05-20 23:03:42,757 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.6832
+2025-05-20 23:03:42,757 - KFoldWrapper -  ----------
+2025-05-20 23:03:44,516 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:03:45,184 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:03:45,858 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 23:03:46,537 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.5657
+2025-05-20 23:03:47,204 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:03:47,205 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.6832
+2025-05-20 23:03:47,205 - KFoldWrapper -  ----------
+2025-05-20 23:03:48,961 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.7955, f1_score=0.5325
+2025-05-20 23:03:49,629 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:03:50,303 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:03:50,971 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:03:51,661 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.5855
+2025-05-20 23:03:51,661 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.8791, f1_score=0.7058
+2025-05-20 23:03:51,661 - KFoldWrapper -  ----------
+2025-05-20 23:03:53,418 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 23:03:54,083 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.7674, f1_score=0.5158
+2025-05-20 23:03:54,770 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:03:55,445 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:03:56,109 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:03:56,110 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.8651, f1_score=0.6880
+2025-05-20 23:03:56,110 - KFoldWrapper -  ----------
+2025-05-20 23:03:57,201 - gcForest -  The evaluation[accuracy] of layer_1 is 0.9070
+2025-05-20 23:03:57,201 - gcForest -  training finish...
+2025-05-20 23:03:57,202 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:04:08,241 - gcForest -  Begin to train....
+2025-05-20 23:04:08,241 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:04:08,241 - gcForest -  use <function accuracy at 0x000002011945BD90> as training evaluation
+2025-05-20 23:04:08,241 - gcForest -  stacking: False, save model: False
+2025-05-20 23:04:18,514 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:04:18,514 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:04:19,243 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:04:19,929 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:04:20,596 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:04:21,298 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:04:22,005 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:04:22,005 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9395, f1_score=0.8554
+2025-05-20 23:04:22,005 - KFoldWrapper -  ----------
+2025-05-20 23:04:27,887 - gcForest -  Begin to train....
+2025-05-20 23:04:27,887 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:04:27,887 - gcForest -  use <function f1_macro at 0x000001A9A29D2048> as training evaluation
+2025-05-20 23:04:27,887 - gcForest -  stacking: False, save model: False
+2025-05-20 23:04:38,252 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:04:38,252 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:04:39,040 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.7672
+2025-05-20 23:04:39,804 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:04:40,515 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:04:41,245 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:04:41,991 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:04:41,992 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7729
+2025-05-20 23:04:41,992 - KFoldWrapper -  ----------
+2025-05-20 23:04:43,889 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:04:44,821 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 23:04:45,566 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8810, f1_score=0.6104
+2025-05-20 23:04:46,379 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:04:47,188 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 23:04:47,189 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7729
+2025-05-20 23:04:47,189 - KFoldWrapper -  ----------
+2025-05-20 23:04:49,062 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:04:49,866 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:04:50,588 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 23:04:51,386 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:04:52,143 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:04:52,143 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8051
+2025-05-20 23:04:52,143 - KFoldWrapper -  ----------
+2025-05-20 23:04:54,019 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.6423
+2025-05-20 23:04:54,811 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 23:04:55,630 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:04:56,442 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:04:57,171 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:04:57,171 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8207
+2025-05-20 23:04:57,171 - KFoldWrapper -  ----------
+2025-05-20 23:04:58,259 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.7808
+2025-05-20 23:05:09,005 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:05:09,005 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:05:09,785 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 23:05:10,560 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8864, f1_score=0.7991
+2025-05-20 23:05:11,304 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:05:12,082 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.4750
+2025-05-20 23:05:12,856 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:05:12,856 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7811
+2025-05-20 23:05:12,856 - KFoldWrapper -  ----------
+2025-05-20 23:05:14,724 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 23:05:15,454 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8409, f1_score=0.5668
+2025-05-20 23:05:16,209 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:05:16,891 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 23:05:17,566 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:05:17,566 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.8972, f1_score=0.7669
+2025-05-20 23:05:17,566 - KFoldWrapper -  ----------
+2025-05-20 23:05:19,342 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6906
+2025-05-20 23:05:20,023 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:05:20,703 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:05:21,376 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:05:22,069 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:05:22,069 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9019, f1_score=0.7663
+2025-05-20 23:05:22,069 - KFoldWrapper -  ----------
+2025-05-20 23:05:23,857 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 23:05:24,520 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:05:25,203 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8571, f1_score=0.5855
+2025-05-20 23:05:25,888 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:05:26,560 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:05:26,560 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7735
+2025-05-20 23:05:26,560 - KFoldWrapper -  ----------
+2025-05-20 23:05:27,642 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.7735
+2025-05-20 23:05:27,642 - gcForest -  training finish...
+2025-05-20 23:05:27,642 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:05:38,785 - gcForest -  Begin to train....
+2025-05-20 23:05:38,785 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:05:38,785 - gcForest -  use 0.743879472693032 as training evaluation
+2025-05-20 23:05:38,785 - gcForest -  stacking: False, save model: False
+2025-05-20 23:05:49,089 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:05:49,089 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:05:49,803 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 23:05:50,465 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 23:05:51,134 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:05:51,804 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:05:52,471 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:05:52,471 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8416
+2025-05-20 23:05:52,471 - KFoldWrapper -  ----------
+2025-05-20 23:05:54,218 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 23:05:54,884 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:05:55,551 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:05:56,233 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:05:56,903 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:05:56,903 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8469
+2025-05-20 23:05:56,903 - KFoldWrapper -  ----------
+2025-05-20 23:05:58,684 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 23:05:59,364 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:06:00,032 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:06:00,710 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:06:01,381 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:06:01,381 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8416
+2025-05-20 23:06:01,382 - KFoldWrapper -  ----------
+2025-05-20 23:06:03,138 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9481
+2025-05-20 23:06:03,823 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:06:04,492 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:06:05,166 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:06:05,846 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:06:05,846 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9442, f1_score=0.8687
+2025-05-20 23:06:05,846 - KFoldWrapper -  ----------
+2025-05-20 23:07:39,458 - gcForest -  Begin to train....
+2025-05-20 23:07:39,458 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:07:39,459 - gcForest -  use <function f1_macro at 0x0000019FF3D9A488> as training evaluation
+2025-05-20 23:07:39,459 - gcForest -  stacking: False, save model: False
+2025-05-20 23:07:49,806 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:07:49,806 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:07:50,607 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:07:51,322 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:07:52,084 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:07:52,919 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:07:53,691 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:07:53,691 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8386
+2025-05-20 23:07:53,691 - KFoldWrapper -  ----------
+2025-05-20 23:07:55,509 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:07:56,303 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:07:57,052 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:07:57,720 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:07:58,374 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:07:58,375 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8061
+2025-05-20 23:07:58,375 - KFoldWrapper -  ----------
+2025-05-20 23:08:00,132 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:08:00,793 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:08:01,475 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:08:02,143 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:08:02,812 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:08:02,813 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.7977
+2025-05-20 23:08:02,813 - KFoldWrapper -  ----------
+2025-05-20 23:08:04,580 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:08:05,235 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:08:05,891 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:08:06,557 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:08:07,228 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:08:07,229 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8320
+2025-05-20 23:08:07,229 - KFoldWrapper -  ----------
+2025-05-20 23:08:08,320 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.8152
+2025-05-20 23:08:18,342 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:08:18,342 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:08:19,051 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 23:08:19,717 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:08:20,385 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:08:21,071 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.7174
+2025-05-20 23:08:21,734 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:08:21,736 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7735
+2025-05-20 23:08:21,736 - KFoldWrapper -  ----------
+2025-05-20 23:08:23,506 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:08:24,178 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:08:24,848 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:08:25,500 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:08:26,156 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:08:26,156 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7735
+2025-05-20 23:08:26,156 - KFoldWrapper -  ----------
+2025-05-20 23:08:27,895 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:08:28,560 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:08:29,218 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:08:29,888 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:08:30,543 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:08:30,543 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8271
+2025-05-20 23:08:30,543 - KFoldWrapper -  ----------
+2025-05-20 23:08:32,284 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:08:32,940 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:08:33,605 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:08:34,259 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:08:34,913 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:08:34,913 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9159, f1_score=0.7808
+2025-05-20 23:08:34,913 - KFoldWrapper -  ----------
+2025-05-20 23:08:36,001 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.8051
+2025-05-20 23:08:36,001 - gcForest -  training finish...
+2025-05-20 23:08:36,001 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:08:47,121 - gcForest -  Begin to train....
+2025-05-20 23:08:47,121 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:08:47,121 - gcForest -  use 0.6538181818181819 as training evaluation
+2025-05-20 23:08:47,121 - gcForest -  stacking: False, save model: False
+2025-05-20 23:08:57,084 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:08:57,084 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:08:57,820 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8182, f1_score=0.6944
+2025-05-20 23:08:58,522 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:08:59,235 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.7907, f1_score=0.5922
+2025-05-20 23:08:59,946 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:09:00,648 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:09:00,648 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.7210
+2025-05-20 23:09:00,648 - KFoldWrapper -  ----------
+2025-05-20 23:09:02,476 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:09:03,250 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:09:03,957 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:09:04,708 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:09:05,394 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:09:05,395 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7882
+2025-05-20 23:09:05,395 - KFoldWrapper -  ----------
+2025-05-20 23:09:07,158 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.7448
+2025-05-20 23:09:07,806 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:09:08,472 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:09:09,126 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:09:09,792 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:09:09,793 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.7210
+2025-05-20 23:09:09,793 - KFoldWrapper -  ----------
+2025-05-20 23:09:11,531 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:09:12,186 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:09:12,841 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:09:13,507 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.6828
+2025-05-20 23:09:14,178 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:09:14,178 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.7525
+2025-05-20 23:09:14,178 - KFoldWrapper -  ----------
+2025-05-20 23:15:31,842 - gcForest -  Begin to train....
+2025-05-20 23:15:31,843 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:15:31,843 - gcForest -  use <function f1_macro at 0x0000028B8151A488> as training evaluation
+2025-05-20 23:15:31,843 - gcForest -  stacking: False, save model: False
+2025-05-20 23:15:42,105 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:15:42,105 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:15:42,828 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.7981
+2025-05-20 23:15:43,530 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8372, f1_score=0.6828
+2025-05-20 23:15:44,240 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:15:44,973 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:15:45,717 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:15:45,718 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9019, f1_score=0.7875
+2025-05-20 23:15:45,718 - KFoldWrapper -  ----------
+2025-05-20 23:15:47,499 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:15:48,246 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:15:48,946 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:15:49,723 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.8140, f1_score=0.6587
+2025-05-20 23:15:50,437 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:15:50,437 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.8879, f1_score=0.7457
+2025-05-20 23:15:50,437 - KFoldWrapper -  ----------
+2025-05-20 23:15:52,231 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8372, f1_score=0.7174
+2025-05-20 23:15:52,925 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:15:53,651 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:15:54,365 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.7907, f1_score=0.6366
+2025-05-20 23:15:55,066 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:15:55,066 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8879, f1_score=0.7535
+2025-05-20 23:15:55,067 - KFoldWrapper -  ----------
+2025-05-20 23:15:56,873 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:15:57,635 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:15:58,399 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:15:59,113 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:15:59,843 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:15:59,845 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7954
+2025-05-20 23:15:59,845 - KFoldWrapper -  ----------
+2025-05-20 23:16:00,934 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.8170
+2025-05-20 23:16:11,366 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:16:11,367 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:16:12,148 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7696
+2025-05-20 23:16:12,853 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:16:13,558 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:14,258 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:16:14,971 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:16:14,971 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8305
+2025-05-20 23:16:14,971 - KFoldWrapper -  ----------
+2025-05-20 23:16:16,764 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:17,464 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:18,163 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:16:18,865 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:16:19,550 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:16:19,550 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8644
+2025-05-20 23:16:19,551 - KFoldWrapper -  ----------
+2025-05-20 23:16:21,337 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:22,040 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:16:22,756 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:16:23,456 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:24,160 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:16:24,160 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9486, f1_score=0.8816
+2025-05-20 23:16:24,161 - KFoldWrapper -  ----------
+2025-05-20 23:16:25,964 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:16:26,650 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:27,335 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.4625
+2025-05-20 23:16:28,037 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:16:28,739 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8635
+2025-05-20 23:16:28,739 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8330
+2025-05-20 23:16:28,739 - KFoldWrapper -  ----------
+2025-05-20 23:16:29,826 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.8539
+2025-05-20 23:16:40,197 - gcForest -  -----------------------------------------layer-2--------------------------------------------
+2025-05-20 23:16:40,197 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:16:40,923 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 23:16:41,622 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_1,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:16:42,324 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:43,022 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:43,742 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:16:43,742 - KFoldWrapper -  layer_2, estimator_0, BaseForest, wrapper,Accuracy=0.9533, f1_score=0.8868
+2025-05-20 23:16:43,742 - KFoldWrapper -  ----------
+2025-05-20 23:16:45,658 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7696
+2025-05-20 23:16:46,481 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:47,260 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:16:48,007 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:16:48,775 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:16:48,776 - KFoldWrapper -  layer_2, estimator_1, BaseForest, wrapper,Accuracy=0.9439, f1_score=0.8767
+2025-05-20 23:16:48,776 - KFoldWrapper -  ----------
+2025-05-20 23:16:50,609 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:16:51,372 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:16:52,085 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:52,783 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:16:53,483 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9477
+2025-05-20 23:16:53,485 - KFoldWrapper -  layer_2, estimator_2, BaseForest, wrapper,Accuracy=0.9579, f1_score=0.9031
+2025-05-20 23:16:53,485 - KFoldWrapper -  ----------
+2025-05-20 23:16:55,318 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_0,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:56,010 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:16:56,685 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_2,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:16:57,351 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:16:58,041 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:16:58,041 - KFoldWrapper -  layer_2, estimator_3, BaseForest, wrapper,Accuracy=0.9579, f1_score=0.8963
+2025-05-20 23:16:58,041 - KFoldWrapper -  ----------
+2025-05-20 23:16:59,129 - gcForest -  The evaluation[f1_macro] of layer_2 is 0.8685
+2025-05-20 23:17:09,385 - gcForest -  -----------------------------------------layer-3--------------------------------------------
+2025-05-20 23:17:09,385 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:17:10,084 - KFoldWrapper -  layer_3, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:17:10,756 - KFoldWrapper -  layer_3, estimator_0, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:17:11,426 - KFoldWrapper -  layer_3, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:17:12,097 - KFoldWrapper -  layer_3, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:17:12,758 - KFoldWrapper -  layer_3, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:17:12,759 - KFoldWrapper -  layer_3, estimator_0, BaseForest, wrapper,Accuracy=0.9299, f1_score=0.8385
+2025-05-20 23:17:12,759 - KFoldWrapper -  ----------
+2025-05-20 23:17:14,515 - KFoldWrapper -  layer_3, estimator_1, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:17:15,183 - KFoldWrapper -  layer_3, estimator_1, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:17:15,853 - KFoldWrapper -  layer_3, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:17:16,525 - KFoldWrapper -  layer_3, estimator_1, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:17:17,195 - KFoldWrapper -  layer_3, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:17:17,196 - KFoldWrapper -  layer_3, estimator_1, BaseForest, wrapper,Accuracy=0.9439, f1_score=0.8687
+2025-05-20 23:17:17,196 - KFoldWrapper -  ----------
+2025-05-20 23:17:18,964 - KFoldWrapper -  layer_3, estimator_2, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:17:19,646 - KFoldWrapper -  layer_3, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:17:20,317 - KFoldWrapper -  layer_3, estimator_2, BaseForest, n_fold_2,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:17:20,985 - KFoldWrapper -  layer_3, estimator_2, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:17:21,663 - KFoldWrapper -  layer_3, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:17:21,665 - KFoldWrapper -  layer_3, estimator_2, BaseForest, wrapper,Accuracy=0.9346, f1_score=0.8468
+2025-05-20 23:17:21,665 - KFoldWrapper -  ----------
+2025-05-20 23:17:23,417 - KFoldWrapper -  layer_3, estimator_3, BaseForest, n_fold_0,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:17:24,082 - KFoldWrapper -  layer_3, estimator_3, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:17:24,742 - KFoldWrapper -  layer_3, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:17:25,408 - KFoldWrapper -  layer_3, estimator_3, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:17:26,077 - KFoldWrapper -  layer_3, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:17:26,077 - KFoldWrapper -  layer_3, estimator_3, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8553
+2025-05-20 23:17:26,077 - KFoldWrapper -  ----------
+2025-05-20 23:17:27,163 - gcForest -  The evaluation[f1_macro] of layer_3 is 0.8732
+2025-05-20 23:17:37,383 - gcForest -  -----------------------------------------layer-4--------------------------------------------
+2025-05-20 23:17:37,383 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:17:38,092 - KFoldWrapper -  layer_4, estimator_0, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:17:38,790 - KFoldWrapper -  layer_4, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:17:39,478 - KFoldWrapper -  layer_4, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:17:40,145 - KFoldWrapper -  layer_4, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:17:40,829 - KFoldWrapper -  layer_4, estimator_0, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:17:40,830 - KFoldWrapper -  layer_4, estimator_0, BaseForest, wrapper,Accuracy=0.9486, f1_score=0.8732
+2025-05-20 23:17:40,830 - KFoldWrapper -  ----------
+2025-05-20 23:17:42,605 - KFoldWrapper -  layer_4, estimator_1, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:17:43,309 - KFoldWrapper -  layer_4, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:17:44,009 - KFoldWrapper -  layer_4, estimator_1, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:17:44,706 - KFoldWrapper -  layer_4, estimator_1, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:17:45,377 - KFoldWrapper -  layer_4, estimator_1, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9378
+2025-05-20 23:17:45,378 - KFoldWrapper -  layer_4, estimator_1, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8108
+2025-05-20 23:17:45,378 - KFoldWrapper -  ----------
+2025-05-20 23:17:47,137 - KFoldWrapper -  layer_4, estimator_2, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:17:47,805 - KFoldWrapper -  layer_4, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:17:48,476 - KFoldWrapper -  layer_4, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:17:49,158 - KFoldWrapper -  layer_4, estimator_2, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:17:49,830 - KFoldWrapper -  layer_4, estimator_2, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 23:17:49,830 - KFoldWrapper -  layer_4, estimator_2, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8553
+2025-05-20 23:17:49,830 - KFoldWrapper -  ----------
+2025-05-20 23:17:51,583 - KFoldWrapper -  layer_4, estimator_3, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:17:52,251 - KFoldWrapper -  layer_4, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:17:52,918 - KFoldWrapper -  layer_4, estimator_3, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:17:53,601 - KFoldWrapper -  layer_4, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:17:54,272 - KFoldWrapper -  layer_4, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:17:54,272 - KFoldWrapper -  layer_4, estimator_3, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8188
+2025-05-20 23:17:54,272 - KFoldWrapper -  ----------
+2025-05-20 23:17:55,361 - gcForest -  The evaluation[f1_macro] of layer_4 is 0.8732
+2025-05-20 23:17:55,361 - gcForest -  training finish...
+2025-05-20 23:17:55,361 - gcForest -  best_layer: 3, current_layer:4, save layers: 4
+2025-05-20 23:18:33,112 - gcForest -  Begin to train....
+2025-05-20 23:18:33,112 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:18:33,112 - gcForest -  use 0.6814988290398126 as training evaluation
+2025-05-20 23:18:33,112 - gcForest -  stacking: False, save model: False
+2025-05-20 23:18:43,518 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:18:43,518 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:18:44,243 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:18:44,995 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:18:45,819 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:18:46,534 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9222
+2025-05-20 23:18:47,328 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:18:47,328 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.7978
+2025-05-20 23:18:47,328 - KFoldWrapper -  ----------
+2025-05-20 23:18:49,176 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:18:49,887 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:18:50,603 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:18:51,329 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:18:52,000 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:18:52,000 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7545
+2025-05-20 23:18:52,000 - KFoldWrapper -  ----------
+2025-05-20 23:18:53,772 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:18:54,457 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:18:55,126 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:18:55,808 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.6815
+2025-05-20 23:18:56,489 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:18:56,489 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.7721
+2025-05-20 23:18:56,489 - KFoldWrapper -  ----------
+2025-05-20 23:18:58,262 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:18:58,947 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:18:59,633 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:19:00,320 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:19:00,968 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:19:00,968 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.7978
+2025-05-20 23:19:00,968 - KFoldWrapper -  ----------
+2025-05-20 23:23:01,798 - gcForest -  Begin to train....
+2025-05-20 23:23:01,798 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:23:01,798 - gcForest -  use <function f1_macro at 0x0000019D28EF9488> as training evaluation
+2025-05-20 23:23:01,798 - gcForest -  stacking: False, save model: False
+2025-05-20 23:23:12,199 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:23:12,199 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:23:12,903 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:23:13,573 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:23:14,242 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:23:14,903 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:23:15,572 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9762, f1_score=0.9221
+2025-05-20 23:23:15,573 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7811
+2025-05-20 23:23:15,573 - KFoldWrapper -  ----------
+2025-05-20 23:23:17,325 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:23:17,995 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:23:18,665 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:23:19,320 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:23:20,006 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:23:20,006 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9159, f1_score=0.8030
+2025-05-20 23:23:20,006 - KFoldWrapper -  ----------
+2025-05-20 23:23:21,789 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:23:22,455 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:23:23,129 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:23:23,811 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:23:24,473 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:23:24,474 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9159, f1_score=0.7888
+2025-05-20 23:23:24,474 - KFoldWrapper -  ----------
+2025-05-20 23:23:26,226 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:23:26,895 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:23:27,573 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:23:28,273 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:23:28,988 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:23:28,989 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9065, f1_score=0.7811
+2025-05-20 23:23:28,989 - KFoldWrapper -  ----------
+2025-05-20 23:23:30,077 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.7962
+2025-05-20 23:23:40,482 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:23:40,482 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:23:41,192 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:23:41,855 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8372, f1_score=0.6828
+2025-05-20 23:23:42,538 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:23:43,219 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:23:43,906 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:23:43,907 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.8692, f1_score=0.7286
+2025-05-20 23:23:43,907 - KFoldWrapper -  ----------
+2025-05-20 23:23:45,662 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:23:46,331 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:23:47,010 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:23:47,710 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 23:23:48,376 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:23:48,377 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.8972, f1_score=0.7740
+2025-05-20 23:23:48,377 - KFoldWrapper -  ----------
+2025-05-20 23:23:50,133 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:23:50,806 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:23:51,471 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 23:23:52,142 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.7907, f1_score=0.6701
+2025-05-20 23:23:52,841 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:23:52,841 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.8879, f1_score=0.7607
+2025-05-20 23:23:52,841 - KFoldWrapper -  ----------
+2025-05-20 23:23:54,614 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:23:55,311 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:23:55,977 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.7174
+2025-05-20 23:23:56,639 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.7907, f1_score=0.5922
+2025-05-20 23:23:57,333 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:23:57,333 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.8832, f1_score=0.7543
+2025-05-20 23:23:57,333 - KFoldWrapper -  ----------
+2025-05-20 23:23:58,426 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.7739
+2025-05-20 23:23:58,427 - gcForest -  training finish...
+2025-05-20 23:23:58,427 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:24:09,442 - gcForest -  Begin to train....
+2025-05-20 23:24:09,442 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:24:09,442 - gcForest -  use 0.9203747072599531 as training evaluation
+2025-05-20 23:24:09,442 - gcForest -  stacking: False, save model: False
+2025-05-20 23:24:19,699 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:24:19,699 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:24:20,406 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 23:24:21,076 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:24:21,742 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.7907, f1_score=0.6366
+2025-05-20 23:24:22,408 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9479
+2025-05-20 23:24:23,076 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:24:23,076 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7664
+2025-05-20 23:24:23,076 - KFoldWrapper -  ----------
+2025-05-20 23:24:24,814 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9481
+2025-05-20 23:24:25,466 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8372, f1_score=0.7434
+2025-05-20 23:24:26,123 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:24:26,782 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:24:27,451 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:24:27,451 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8031
+2025-05-20 23:24:27,451 - KFoldWrapper -  ----------
+2025-05-20 23:24:29,191 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.6364
+2025-05-20 23:24:29,854 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:24:30,526 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:24:31,181 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:24:31,848 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:24:31,849 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7812
+2025-05-20 23:24:31,849 - KFoldWrapper -  ----------
+2025-05-20 23:24:33,609 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 23:24:34,279 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:24:34,946 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:24:35,601 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:24:36,253 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:24:36,254 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8094
+2025-05-20 23:24:36,254 - KFoldWrapper -  ----------
+2025-05-20 23:27:55,777 - gcForest -  Begin to train....
+2025-05-20 23:27:55,777 - gcForest -  the shape of training samples: (214, 7)
+2025-05-20 23:27:55,777 - gcForest -  use <function f1_macro at 0x000001F20AF3B510> as training evaluation
+2025-05-20 23:27:55,777 - gcForest -  stacking: False, save model: False
+2025-05-20 23:28:05,625 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:28:05,625 - gcForest -  The shape of X_train is (214, 7)
+2025-05-20 23:28:06,332 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:28:06,999 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:28:07,668 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:28:08,320 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:28:08,991 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:28:08,992 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.8051
+2025-05-20 23:28:08,992 - KFoldWrapper -  ----------
+2025-05-20 23:28:10,749 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.7672
+2025-05-20 23:28:11,403 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:28:12,057 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:28:12,713 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:28:13,357 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:28:13,358 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9393, f1_score=0.8320
+2025-05-20 23:28:13,358 - KFoldWrapper -  ----------
+2025-05-20 23:28:15,107 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9773, f1_score=0.9381
+2025-05-20 23:28:15,759 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:28:16,411 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:28:17,078 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:28:17,747 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:28:17,747 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.7973
+2025-05-20 23:28:17,747 - KFoldWrapper -  ----------
+2025-05-20 23:28:19,487 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:28:20,140 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:28:20,794 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:28:21,448 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:28:22,102 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:28:22,102 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9346, f1_score=0.8152
+2025-05-20 23:28:22,102 - KFoldWrapper -  ----------
+2025-05-20 23:28:23,189 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.8320
+2025-05-20 23:28:33,125 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:28:33,125 - gcForest -  The shape of X_train is (214, 15)
+2025-05-20 23:28:33,833 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:28:34,491 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:28:35,159 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:28:35,827 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:28:36,498 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:28:36,499 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7729
+2025-05-20 23:28:36,499 - KFoldWrapper -  ----------
+2025-05-20 23:28:38,243 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:28:38,896 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:28:39,551 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:28:40,237 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:28:40,891 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.5855
+2025-05-20 23:28:40,891 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9112, f1_score=0.7641
+2025-05-20 23:28:40,891 - KFoldWrapper -  ----------
+2025-05-20 23:28:42,630 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 23:28:43,299 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:28:43,953 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:28:44,615 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:28:45,284 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:28:45,284 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9206, f1_score=0.8041
+2025-05-20 23:28:45,284 - KFoldWrapper -  ----------
+2025-05-20 23:28:47,024 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.6120
+2025-05-20 23:28:47,672 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 23:28:48,324 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:28:48,979 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:28:49,644 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:28:49,645 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9252, f1_score=0.7973
+2025-05-20 23:28:49,645 - KFoldWrapper -  ----------
+2025-05-20 23:28:50,732 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.7888
+2025-05-20 23:28:50,733 - gcForest -  training finish...
+2025-05-20 23:28:50,733 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:29:01,764 - gcForest -  Begin to train....
+2025-05-20 23:29:01,764 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:29:01,764 - gcForest -  use <function f1_macro at 0x000001F20AF3B510> as training evaluation
+2025-05-20 23:29:01,764 - gcForest -  stacking: False, save model: False
+2025-05-20 23:29:11,532 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:29:11,532 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:29:12,225 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7250
+2025-05-20 23:29:12,884 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:29:13,547 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:29:14,202 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8139
+2025-05-20 23:29:14,859 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:29:14,859 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8062
+2025-05-20 23:29:14,859 - KFoldWrapper -  ----------
+2025-05-20 23:29:16,602 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 23:29:17,255 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:29:17,905 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:29:18,562 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:29:19,213 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 23:29:19,213 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8062
+2025-05-20 23:29:19,213 - KFoldWrapper -  ----------
+2025-05-20 23:29:20,965 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 23:29:21,621 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:29:22,273 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:29:22,925 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:29:23,580 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 23:29:23,581 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9349, f1_score=0.8153
+2025-05-20 23:29:23,581 - KFoldWrapper -  ----------
+2025-05-20 23:29:25,326 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:29:25,985 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9222
+2025-05-20 23:29:26,642 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:29:27,309 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9222
+2025-05-20 23:29:27,961 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:29:27,962 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9442, f1_score=0.8417
+2025-05-20 23:29:27,962 - KFoldWrapper -  ----------
+2025-05-20 23:29:29,042 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.8517
+2025-05-20 23:29:38,920 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:29:38,920 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:29:39,655 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.6615
+2025-05-20 23:29:40,327 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:29:40,996 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:29:41,665 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8208
+2025-05-20 23:29:42,319 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:29:42,319 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9256, f1_score=0.7975
+2025-05-20 23:29:42,319 - KFoldWrapper -  ----------
+2025-05-20 23:29:44,074 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:29:44,744 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:29:45,414 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:29:46,070 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:29:46,724 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8133
+2025-05-20 23:29:46,726 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9302, f1_score=0.8208
+2025-05-20 23:29:46,726 - KFoldWrapper -  ----------
+2025-05-20 23:29:48,476 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:29:49,130 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9222
+2025-05-20 23:29:49,787 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:29:50,438 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:29:51,088 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:29:51,089 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9395, f1_score=0.8447
+2025-05-20 23:29:51,089 - KFoldWrapper -  ----------
+2025-05-20 23:29:52,826 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 23:29:53,478 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:29:54,148 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.6417
+2025-05-20 23:29:54,815 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:29:55,466 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:29:55,466 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.9209, f1_score=0.7890
+2025-05-20 23:29:55,466 - KFoldWrapper -  ----------
+2025-05-20 23:29:56,556 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.8208
+2025-05-20 23:29:56,556 - gcForest -  training finish...
+2025-05-20 23:29:56,556 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:30:07,700 - gcForest -  Begin to train....
+2025-05-20 23:30:07,700 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:30:07,700 - gcForest -  use <function f1_macro at 0x000001F20AF3B510> as training evaluation
+2025-05-20 23:30:07,700 - gcForest -  stacking: False, save model: False
+2025-05-20 23:30:18,000 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:30:18,001 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:30:18,745 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:30:19,440 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:30:20,142 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:30:20,840 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 23:30:21,611 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 23:30:21,612 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.8744, f1_score=0.7185
+2025-05-20 23:30:21,612 - KFoldWrapper -  ----------
+2025-05-20 23:30:23,406 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:30:24,103 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:30:24,801 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.8868
+2025-05-20 23:30:25,565 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:30:26,363 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.7857, f1_score=0.5905
+2025-05-20 23:30:26,363 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.7602
+2025-05-20 23:30:26,363 - KFoldWrapper -  ----------
+2025-05-20 23:30:28,132 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:30:28,876 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:30:29,635 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.7442, f1_score=0.5016
+2025-05-20 23:30:30,399 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.6898
+2025-05-20 23:30:31,102 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7725
+2025-05-20 23:30:31,102 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8791, f1_score=0.7331
+2025-05-20 23:30:31,102 - KFoldWrapper -  ----------
+2025-05-20 23:30:32,870 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:30:33,567 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7244
+2025-05-20 23:30:34,313 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:30:34,996 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:30:35,654 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.8333, f1_score=0.6339
+2025-05-20 23:30:35,655 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:30:35,655 - KFoldWrapper -  ----------
+2025-05-20 23:30:36,743 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.7459
+2025-05-20 23:30:46,826 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:30:46,826 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:30:47,573 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 23:30:48,274 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:30:48,979 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:30:49,675 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.7174
+2025-05-20 23:30:50,375 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.7857, f1_score=0.5905
+2025-05-20 23:30:50,376 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.7494
+2025-05-20 23:30:50,376 - KFoldWrapper -  ----------
+2025-05-20 23:30:52,161 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:30:52,857 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7696
+2025-05-20 23:30:53,555 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.8372, f1_score=0.6828
+2025-05-20 23:30:54,253 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.7674, f1_score=0.5734
+2025-05-20 23:30:54,969 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.9028
+2025-05-20 23:30:54,969 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.8651, f1_score=0.7436
+2025-05-20 23:30:54,969 - KFoldWrapper -  ----------
+2025-05-20 23:30:56,762 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.8872
+2025-05-20 23:30:57,458 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.6605
+2025-05-20 23:30:58,160 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:30:58,872 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:30:59,556 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.8286
+2025-05-20 23:30:59,556 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7937
+2025-05-20 23:30:59,557 - KFoldWrapper -  ----------
+2025-05-20 23:31:01,347 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:31:02,031 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.7907, f1_score=0.6366
+2025-05-20 23:31:02,728 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8294
+2025-05-20 23:31:03,412 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:31:04,113 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.6889
+2025-05-20 23:31:04,113 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.8744, f1_score=0.7489
+2025-05-20 23:31:04,113 - KFoldWrapper -  ----------
+2025-05-20 23:31:05,199 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.7808
+2025-05-20 23:31:15,531 - gcForest -  -----------------------------------------layer-2--------------------------------------------
+2025-05-20 23:31:15,531 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:31:16,290 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:31:16,992 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:31:17,708 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:31:18,489 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_3,Accuracy=0.8372, f1_score=0.6352
+2025-05-20 23:31:19,253 - KFoldWrapper -  layer_2, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:31:19,255 - KFoldWrapper -  layer_2, estimator_0, BaseForest, wrapper,Accuracy=0.8791, f1_score=0.7058
+2025-05-20 23:31:19,255 - KFoldWrapper -  ----------
+2025-05-20 23:31:21,112 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.7448
+2025-05-20 23:31:21,854 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:31:22,583 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_2,Accuracy=0.8140, f1_score=0.5474
+2025-05-20 23:31:23,295 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:31:24,009 - KFoldWrapper -  layer_2, estimator_1, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.6595
+2025-05-20 23:31:24,010 - KFoldWrapper -  layer_2, estimator_1, BaseForest, wrapper,Accuracy=0.8698, f1_score=0.7210
+2025-05-20 23:31:24,010 - KFoldWrapper -  ----------
+2025-05-20 23:31:25,823 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:31:26,507 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 23:31:27,173 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:31:27,840 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_3,Accuracy=0.8140, f1_score=0.6126
+2025-05-20 23:31:28,507 - KFoldWrapper -  layer_2, estimator_2, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:31:28,508 - KFoldWrapper -  layer_2, estimator_2, BaseForest, wrapper,Accuracy=0.8791, f1_score=0.7156
+2025-05-20 23:31:28,508 - KFoldWrapper -  ----------
+2025-05-20 23:31:30,246 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.6615
+2025-05-20 23:31:30,914 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:31:31,586 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:31:32,271 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:31:32,937 - KFoldWrapper -  layer_2, estimator_3, BaseForest, n_fold_4,Accuracy=0.8333, f1_score=0.7159
+2025-05-20 23:31:32,938 - KFoldWrapper -  layer_2, estimator_3, BaseForest, wrapper,Accuracy=0.8744, f1_score=0.7348
+2025-05-20 23:31:32,938 - KFoldWrapper -  ----------
+2025-05-20 23:31:34,025 - gcForest -  The evaluation[f1_macro] of layer_2 is 0.7544
+2025-05-20 23:31:34,025 - gcForest -  training finish...
+2025-05-20 23:31:34,025 - gcForest -  best_layer: 1, current_layer:2, save layers: 2
+2025-05-20 23:31:53,830 - gcForest -  Begin to train....
+2025-05-20 23:31:53,831 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:31:53,831 - gcForest -  use <function f1_macro at 0x000001F20AF3B510> as training evaluation
+2025-05-20 23:31:53,831 - gcForest -  stacking: False, save model: False
+2025-05-20 23:32:03,678 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:32:03,679 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:32:04,378 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 23:32:05,043 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.7744
+2025-05-20 23:32:05,713 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8641
+2025-05-20 23:32:06,379 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:32:07,050 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:32:07,050 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8152
+2025-05-20 23:32:07,050 - KFoldWrapper -  ----------
+2025-05-20 23:32:08,787 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:32:09,438 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 23:32:10,142 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:32:10,811 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:32:11,464 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8865
+2025-05-20 23:32:11,464 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8206
+2025-05-20 23:32:11,464 - KFoldWrapper -  ----------
+2025-05-20 23:32:13,228 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7991
+2025-05-20 23:32:13,895 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 23:32:14,560 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.7667
+2025-05-20 23:32:15,217 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 23:32:15,871 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:32:15,871 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7664
+2025-05-20 23:32:15,871 - KFoldWrapper -  ----------
+2025-05-20 23:32:17,611 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.9545, f1_score=0.9035
+2025-05-20 23:32:18,268 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 23:32:18,967 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:32:19,618 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 23:32:20,281 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:32:20,282 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8152
+2025-05-20 23:32:20,282 - KFoldWrapper -  ----------
+2025-05-20 23:32:21,361 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.8152
+2025-05-20 23:32:31,275 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:32:31,275 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:32:31,972 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 23:32:32,642 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.9318, f1_score=0.8646
+2025-05-20 23:32:33,317 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:32:33,979 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9048, f1_score=0.8056
+2025-05-20 23:32:34,632 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:32:34,633 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9023, f1_score=0.7994
+2025-05-20 23:32:34,633 - KFoldWrapper -  ----------
+2025-05-20 23:32:36,391 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.7187
+2025-05-20 23:32:37,062 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_1,Accuracy=0.8636, f1_score=0.7452
+2025-05-20 23:32:37,732 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_2,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:32:38,384 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.7662
+2025-05-20 23:32:39,039 - KFoldWrapper -  layer_1, estimator_1, BaseForest, n_fold_4,Accuracy=0.9524, f1_score=0.8618
+2025-05-20 23:32:39,040 - KFoldWrapper -  layer_1, estimator_1, BaseForest, wrapper,Accuracy=0.9070, f1_score=0.7947
+2025-05-20 23:32:39,040 - KFoldWrapper -  ----------
+2025-05-20 23:32:40,778 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7991
+2025-05-20 23:32:41,449 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_1,Accuracy=0.9091, f1_score=0.8070
+2025-05-20 23:32:42,118 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:32:42,786 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_3,Accuracy=0.8333, f1_score=0.6339
+2025-05-20 23:32:43,456 - KFoldWrapper -  layer_1, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:32:43,456 - KFoldWrapper -  layer_1, estimator_2, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.7741
+2025-05-20 23:32:43,456 - KFoldWrapper -  ----------
+2025-05-20 23:32:45,215 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_0,Accuracy=0.9091, f1_score=0.8301
+2025-05-20 23:32:45,868 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_1,Accuracy=0.8636, f1_score=0.7105
+2025-05-20 23:32:46,535 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_2,Accuracy=0.8837, f1_score=0.7394
+2025-05-20 23:32:47,264 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_3,Accuracy=0.9286, f1_score=0.8431
+2025-05-20 23:32:47,917 - KFoldWrapper -  layer_1, estimator_3, BaseForest, n_fold_4,Accuracy=0.8571, f1_score=0.7083
+2025-05-20 23:32:47,917 - KFoldWrapper -  layer_1, estimator_3, BaseForest, wrapper,Accuracy=0.8884, f1_score=0.7676
+2025-05-20 23:32:47,917 - KFoldWrapper -  ----------
+2025-05-20 23:32:49,003 - gcForest -  The evaluation[f1_macro] of layer_1 is 0.8007
+2025-05-20 23:32:49,003 - gcForest -  training finish...
+2025-05-20 23:32:49,003 - gcForest -  best_layer: 0, current_layer:1, save layers: 1
+2025-05-20 23:33:00,087 - gcForest -  Begin to train....
+2025-05-20 23:33:00,087 - gcForest -  the shape of training samples: (215, 7)
+2025-05-20 23:33:00,087 - gcForest -  use <function f1_macro at 0x000001F20AF3B510> as training evaluation
+2025-05-20 23:33:00,087 - gcForest -  stacking: False, save model: False
+2025-05-20 23:33:09,982 - gcForest -  -----------------------------------------layer-0--------------------------------------------
+2025-05-20 23:33:09,983 - gcForest -  The shape of X_train is (215, 7)
+2025-05-20 23:33:10,726 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8143
+2025-05-20 23:33:11,426 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_1,Accuracy=0.9535, f1_score=0.9032
+2025-05-20 23:33:12,122 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.7440
+2025-05-20 23:33:12,806 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_3,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:33:13,519 - KFoldWrapper -  layer_0, estimator_0, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.6410
+2025-05-20 23:33:13,519 - KFoldWrapper -  layer_0, estimator_0, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7956
+2025-05-20 23:33:13,520 - KFoldWrapper -  ----------
+2025-05-20 23:33:15,283 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_0,Accuracy=0.9318, f1_score=0.8442
+2025-05-20 23:33:15,936 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.7734
+2025-05-20 23:33:16,586 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_2,Accuracy=1.0000, f1_score=1.0000
+2025-05-20 23:33:17,258 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_3,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 23:33:17,911 - KFoldWrapper -  layer_0, estimator_1, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:33:17,912 - KFoldWrapper -  layer_0, estimator_1, BaseForest, wrapper,Accuracy=0.9163, f1_score=0.8031
+2025-05-20 23:33:17,912 - KFoldWrapper -  ----------
+2025-05-20 23:33:19,667 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_0,Accuracy=0.8409, f1_score=0.7187
+2025-05-20 23:33:20,323 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_1,Accuracy=0.9070, f1_score=0.8063
+2025-05-20 23:33:20,980 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_2,Accuracy=0.8605, f1_score=0.5865
+2025-05-20 23:33:21,649 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_3,Accuracy=0.9535, f1_score=0.8622
+2025-05-20 23:33:22,333 - KFoldWrapper -  layer_0, estimator_2, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7730
+2025-05-20 23:33:22,333 - KFoldWrapper -  layer_0, estimator_2, BaseForest, wrapper,Accuracy=0.8930, f1_score=0.7525
+2025-05-20 23:33:22,333 - KFoldWrapper -  ----------
+2025-05-20 23:33:24,091 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7744
+2025-05-20 23:33:24,782 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_1,Accuracy=0.8605, f1_score=0.7095
+2025-05-20 23:33:25,461 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_2,Accuracy=0.9070, f1_score=0.7737
+2025-05-20 23:33:26,215 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_3,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:33:27,008 - KFoldWrapper -  layer_0, estimator_3, BaseForest, n_fold_4,Accuracy=0.9048, f1_score=0.7237
+2025-05-20 23:33:27,009 - KFoldWrapper -  layer_0, estimator_3, BaseForest, wrapper,Accuracy=0.8977, f1_score=0.7670
+2025-05-20 23:33:27,009 - KFoldWrapper -  ----------
+2025-05-20 23:33:28,111 - gcForest -  The evaluation[f1_macro] of layer_0 is 0.7525
+2025-05-20 23:33:39,612 - gcForest -  -----------------------------------------layer-1--------------------------------------------
+2025-05-20 23:33:39,612 - gcForest -  The shape of X_train is (215, 15)
+2025-05-20 23:33:40,343 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_0,Accuracy=0.8864, f1_score=0.7403
+2025-05-20 23:33:41,113 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_1,Accuracy=0.8837, f1_score=0.6112
+2025-05-20 23:33:41,835 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_2,Accuracy=0.9302, f1_score=0.8436
+2025-05-20 23:33:42,559 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_3,Accuracy=0.9767, f1_score=0.9380
+2025-05-20 23:33:43,260 - KFoldWrapper -  layer_1, estimator_0, BaseForest, n_fold_4,Accuracy=0.8810, f1_score=0.7385
+2025-05-20 23:33:43,260 - KFoldWrapper -  layer_1, estimator_0, BaseForest, wrapper,Accuracy=0.9116, f1_score=0.7812
+2025-05-20 23:33:43,260 - KFoldWrapper -  ----------
