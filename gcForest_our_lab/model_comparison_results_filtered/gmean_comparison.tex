@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{adjustbox}
+\usepackage[margin=1in]{geometry}
+\definecolor{graybg}{gray}{0.9}
+\begin{document}
+
+\begin{table}[htbp]
+\centering
+\caption{Gmean Comparison}
+\begin{adjustbox}{width=\textwidth}
+\label{tab:gmean_comparison}
+\begin{tabular}{lcccccccccc}
+\hline
+\textbf{Dataset} & \textbf{BC} & \textbf{EE} & \textbf{OBa} & \textbf{OB} & \textbf{RUSB} & \textbf{SBa} & \textbf{SB} & \textbf{SPE} & \textbf{UB} & \textbf{ours} \\
+\hline
+x10data.npz & 0.749 & \cellcolor{graybg}\textbf{0.854} & 0.574 & 0.749 & 0.699 & 0.606 & 0.736 & 0.753 & 0.837 & 0.741 \\
+x11data.npz & 0.384 & \cellcolor{graybg}\textbf{0.552} & 0.000 & 0.405 & 0.488 & 0.000 & 0.440 & 0.532 & 0.475 & 0.000 \\
+x12data.npz & 0.555 & \cellcolor{graybg}\textbf{0.692} & 0.230 & 0.531 & 0.543 & 0.256 & 0.528 & 0.656 & 0.676 & 0.412 \\
+x13data.npz & \cellcolor{graybg}\textbf{0.880} & 0.872 & 0.751 & 0.787 & 0.743 & 0.814 & 0.817 & 0.858 & 0.872 & 0.786 \\
+x14data.npz & 0.958 & 0.946 & 0.918 & 0.929 & 0.849 & 0.918 & 0.881 & 0.917 & \cellcolor{graybg}\textbf{0.970} & 0.917 \\
+x15data.npz & 0.492 & \cellcolor{graybg}\textbf{0.688} & 0.290 & 0.665 & 0.618 & 0.263 & 0.390 & 0.608 & 0.641 & 0.313 \\
+x16data.npz & \cellcolor{graybg}\textbf{0.965} & 0.956 & 0.908 & 0.825 & 0.872 & 0.951 & 0.859 & 0.948 & 0.956 & 0.878 \\
+x17data.npz & 0.600 & 0.685 & 0.462 & 0.651 & 0.671 & 0.288 & 0.499 & 0.689 & \cellcolor{graybg}\textbf{0.728} & 0.460 \\
+x18data.npz & 0.820 & 0.837 & 0.485 & 0.634 & 0.670 & 0.546 & 0.771 & 0.800 & \cellcolor{graybg}\textbf{0.839} & 0.717 \\
+x19data.npz & \cellcolor{graybg}\textbf{0.997} & 0.991 & 0.992 & 0.995 & 0.963 & 0.992 & 0.925 & 0.991 & 0.991 & 0.991 \\
+x1data.npz & 0.843 & 0.881 & 0.568 & 0.730 & 0.822 & 0.717 & 0.761 & 0.777 & \cellcolor{graybg}\textbf{0.882} & 0.786 \\
+x20data.npz & 0.694 & 0.766 & 0.407 & 0.726 & 0.602 & 0.446 & 0.715 & 0.751 & \cellcolor{graybg}\textbf{0.787} & 0.639 \\
+x22data.npz & 0.778 & 0.797 & 0.365 & 0.704 & 0.662 & 0.456 & 0.766 & 0.793 & \cellcolor{graybg}\textbf{0.822} & 0.679 \\
+x24data.npz & 0.707 & \cellcolor{graybg}\textbf{0.791} & 0.219 & 0.638 & 0.616 & 0.284 & 0.631 & 0.756 & 0.788 & 0.528 \\
+x27data.npz & 0.449 & 0.712 & 0.000 & 0.368 & 0.581 & 0.000 & 0.594 & 0.698 & \cellcolor{graybg}\textbf{0.744} & 0.082 \\
+x2data.npz & 0.963 & 0.928 & 0.914 & 0.947 & 0.904 & 0.926 & 0.928 & 0.964 & 0.956 & \cellcolor{graybg}\textbf{0.970} \\
+x3data.npz & 0.839 & 0.849 & 0.720 & 0.860 & 0.802 & 0.749 & 0.836 & 0.825 & \cellcolor{graybg}\textbf{0.872} & 0.834 \\
+x5data.npz & 0.633 & \cellcolor{graybg}\textbf{0.787} & 0.322 & 0.780 & 0.732 & 0.389 & 0.785 & 0.714 & 0.770 & 0.647 \\
+x6data.npz & 0.940 & 0.940 & 0.919 & 0.932 & 0.850 & 0.922 & 0.919 & 0.916 & \cellcolor{graybg}\textbf{0.954} & 0.934 \\
+x7data.npz & 0.901 & \cellcolor{graybg}\textbf{0.946} & 0.770 & 0.890 & 0.736 & 0.810 & 0.844 & 0.889 & 0.876 & 0.900 \\
+x8data.npz & 0.976 & 0.966 & 0.967 & 0.983 & 0.947 & 0.963 & 0.962 & 0.975 & \cellcolor{graybg}\textbf{0.987} & 0.962 \\
+x9data.npz & 0.940 & 0.929 & 0.801 & 0.930 & 0.772 & 0.822 & 0.908 & 0.944 & \cellcolor{graybg}\textbf{0.947} & 0.944 \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\end{document}

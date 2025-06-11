@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="mesa" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="machine-learning" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="/opt/anaconda3/envs/machine_learning" project-jdk-type="Python SDK" />
   <component name="PyPackaging">
     <option name="earlyReleasesAsUpgrades" value="true" />
   </component>
